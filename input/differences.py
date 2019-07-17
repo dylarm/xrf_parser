@@ -56,7 +56,10 @@ def main():
             if file1 != file2:
                 print(f"{file1.as_posix()} -- {file2.as_posix()}")
                 s = SequenceMatcher(a=file_dict[file1], b=file_dict[file2])
-                print(s.get_matching_blocks())
+                matching_blocks = s.get_matching_blocks()
+                print(matching_blocks)
+                for a,b,length in matching_blocks:
+                    print(f"a[{a}] and b[{b}] for {length}")
 
 
 if __name__ == '__main__':
