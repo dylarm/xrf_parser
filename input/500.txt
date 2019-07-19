@@ -1,0 +1,2037 @@
+Comparing: [WindowsPath('files/00001-GLASSMAJORS.pdz'), WindowsPath('files/00008-GeoExploration.pdz'), WindowsPath('files/00012-GeoMining.pdz'), WindowsPath('files/00041-Alloys 2.pdz'), WindowsPath('files/00047-Spectrum Only.pdz'), WindowsPath('files/00088-Spectrometer Mode.pdz'), WindowsPath('files/00142-Shavings and Turnings 2.pdz'), WindowsPath('files/00174-GeoExploration.pdz'), WindowsPath('files/00206-GLASSMAJORS.pdz')]
+files/00001-GLASSMAJORS.pdz -- files/00008-GeoExploration.pdz
+[Match(a=0, b=0, size=246),
+ Match(a=271, b=286, size=1),
+ Match(a=281, b=379, size=1),
+ Match(a=285, b=383, size=1),
+ Match(a=302, b=391, size=2),
+ Match(a=310, b=395, size=1),
+ Match(a=407, b=413, size=1),
+ Match(a=411, b=417, size=5),
+ Match(a=418, b=424, size=4),
+ Match(a=426, b=432, size=8),
+ Match(a=444, b=450, size=4),
+ Match(a=477, b=483, size=3),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 246
+files/00001-GLASSMAJORS.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+files/00008-GeoExploration.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+a[271] and b[286] for 1
+files/00001-GLASSMAJORS.pdz: b'\x06'
+files/00008-GeoExploration.pdz: b'\x06'
+a[281] and b[379] for 1
+files/00001-GLASSMAJORS.pdz: b'>'
+files/00008-GeoExploration.pdz: b'>'
+a[285] and b[383] for 1
+files/00001-GLASSMAJORS.pdz: b'='
+files/00008-GeoExploration.pdz: b'='
+a[302] and b[391] for 2
+files/00001-GLASSMAJORS.pdz: b'A\x00'
+files/00008-GeoExploration.pdz: b'A\x00'
+a[310] and b[395] for 1
+files/00001-GLASSMAJORS.pdz: b'A'
+files/00008-GeoExploration.pdz: b'A'
+a[407] and b[413] for 1
+files/00001-GLASSMAJORS.pdz: b'\xc1'
+files/00008-GeoExploration.pdz: b'\xc1'
+a[411] and b[417] for 5
+files/00001-GLASSMAJORS.pdz: b'B%\x01\x00\x00'
+files/00008-GeoExploration.pdz: b'B%\x01\x00\x00'
+a[418] and b[424] for 4
+files/00001-GLASSMAJORS.pdz: b'\xa0A\x02\x00'
+files/00008-GeoExploration.pdz: b'\xa0A\x02\x00'
+a[426] and b[432] for 8
+files/00001-GLASSMAJORS.pdz: b'\xd6\x07\x01\x00\x03\x00\x04\x00'
+files/00008-GeoExploration.pdz: b'\xd6\x07\x01\x00\x03\x00\x04\x00'
+a[444] and b[450] for 4
+files/00001-GLASSMAJORS.pdz: b'~D\x00\x08'
+files/00008-GeoExploration.pdz: b'~D\x00\x08'
+a[477] and b[483] for 3
+files/00001-GLASSMAJORS.pdz: b'\x00_\x00'
+files/00008-GeoExploration.pdz: b'\x00_\x00'
+a[500] and b[500] for 0
+files/00001-GLASSMAJORS.pdz: b''
+files/00008-GeoExploration.pdz: b''
+files/00001-GLASSMAJORS.pdz -- files/00012-GeoMining.pdz
+[Match(a=0, b=0, size=246),
+ Match(a=271, b=283, size=1),
+ Match(a=276, b=366, size=1),
+ Match(a=285, b=369, size=1),
+ Match(a=302, b=381, size=2),
+ Match(a=310, b=385, size=1),
+ Match(a=407, b=403, size=1),
+ Match(a=411, b=407, size=5),
+ Match(a=419, b=415, size=3),
+ Match(a=426, b=422, size=8),
+ Match(a=445, b=441, size=3),
+ Match(a=477, b=473, size=3),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 246
+files/00001-GLASSMAJORS.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+files/00012-GeoMining.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+a[271] and b[283] for 1
+files/00001-GLASSMAJORS.pdz: b'\x06'
+files/00012-GeoMining.pdz: b'\x06'
+a[276] and b[366] for 1
+files/00001-GLASSMAJORS.pdz: b'\xe4'
+files/00012-GeoMining.pdz: b'\xe4'
+a[285] and b[369] for 1
+files/00001-GLASSMAJORS.pdz: b'='
+files/00012-GeoMining.pdz: b'='
+a[302] and b[381] for 2
+files/00001-GLASSMAJORS.pdz: b'A\x00'
+files/00012-GeoMining.pdz: b'A\x00'
+a[310] and b[385] for 1
+files/00001-GLASSMAJORS.pdz: b'A'
+files/00012-GeoMining.pdz: b'A'
+a[407] and b[403] for 1
+files/00001-GLASSMAJORS.pdz: b'\xc1'
+files/00012-GeoMining.pdz: b'\xc1'
+a[411] and b[407] for 5
+files/00001-GLASSMAJORS.pdz: b'B%\x01\x00\x00'
+files/00012-GeoMining.pdz: b'B%\x01\x00\x00'
+a[419] and b[415] for 3
+files/00001-GLASSMAJORS.pdz: b'A\x02\x00'
+files/00012-GeoMining.pdz: b'A\x02\x00'
+a[426] and b[422] for 8
+files/00001-GLASSMAJORS.pdz: b'\xd6\x07\x01\x00\x03\x00\x04\x00'
+files/00012-GeoMining.pdz: b'\xd6\x07\x01\x00\x03\x00\x04\x00'
+a[445] and b[441] for 3
+files/00001-GLASSMAJORS.pdz: b'D\x00\x08'
+files/00012-GeoMining.pdz: b'D\x00\x08'
+a[477] and b[473] for 3
+files/00001-GLASSMAJORS.pdz: b'\x00_\x00'
+files/00012-GeoMining.pdz: b'\x00_\x00'
+a[500] and b[500] for 0
+files/00001-GLASSMAJORS.pdz: b''
+files/00012-GeoMining.pdz: b''
+files/00001-GLASSMAJORS.pdz -- files/00041-Alloys 2.pdz
+[Match(a=0, b=0, size=250),
+ Match(a=256, b=250, size=2),
+ Match(a=271, b=258, size=1),
+ Match(a=272, b=346, size=1),
+ Match(a=281, b=373, size=1),
+ Match(a=293, b=381, size=1),
+ Match(a=339, b=384, size=1),
+ Match(a=386, b=386, size=2),
+ Match(a=403, b=403, size=5),
+ Match(a=411, b=411, size=5),
+ Match(a=418, b=418, size=4),
+ Match(a=426, b=426, size=4),
+ Match(a=433, b=433, size=3),
+ Match(a=445, b=445, size=3),
+ Match(a=459, b=463, size=3),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 250
+files/00001-GLASSMAJORS.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00V\x00\x00\x00'
+files/00041-Alloys 2.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00V\x00\x00\x00'
+a[256] and b[250] for 2
+files/00001-GLASSMAJORS.pdz: b'\x02\x00'
+files/00041-Alloys 2.pdz: b'\x02\x00'
+a[271] and b[258] for 1
+files/00001-GLASSMAJORS.pdz: b'\x06'
+files/00041-Alloys 2.pdz: b'\x06'
+a[272] and b[346] for 1
+files/00001-GLASSMAJORS.pdz: b'\xf1'
+files/00041-Alloys 2.pdz: b'\xf1'
+a[281] and b[373] for 1
+files/00001-GLASSMAJORS.pdz: b'>'
+files/00041-Alloys 2.pdz: b'>'
+a[293] and b[381] for 1
+files/00001-GLASSMAJORS.pdz: b'@'
+files/00041-Alloys 2.pdz: b'@'
+a[339] and b[384] for 1
+files/00001-GLASSMAJORS.pdz: b' '
+files/00041-Alloys 2.pdz: b' '
+a[386] and b[386] for 2
+files/00001-GLASSMAJORS.pdz: b'\x9a\x99'
+files/00041-Alloys 2.pdz: b'\x9a\x99'
+a[403] and b[403] for 5
+files/00001-GLASSMAJORS.pdz: b'\x00\x00\x00\xdc\xc1'
+files/00041-Alloys 2.pdz: b'\x00\x00\x00\xdc\xc1'
+a[411] and b[411] for 5
+files/00001-GLASSMAJORS.pdz: b'B%\x01\x00\x00'
+files/00041-Alloys 2.pdz: b'B%\x01\x00\x00'
+a[418] and b[418] for 4
+files/00001-GLASSMAJORS.pdz: b'\xa0A\x02\x00'
+files/00041-Alloys 2.pdz: b'\xa0A\x02\x00'
+a[426] and b[426] for 4
+files/00001-GLASSMAJORS.pdz: b'\xd6\x07\x01\x00'
+files/00041-Alloys 2.pdz: b'\xd6\x07\x01\x00'
+a[433] and b[433] for 3
+files/00001-GLASSMAJORS.pdz: b'\x00\r\x00'
+files/00041-Alloys 2.pdz: b'\x00\r\x00'
+a[445] and b[445] for 3
+files/00001-GLASSMAJORS.pdz: b'D\x00\x08'
+files/00041-Alloys 2.pdz: b'D\x00\x08'
+a[459] and b[463] for 3
+files/00001-GLASSMAJORS.pdz: b'\x00A\x00'
+files/00041-Alloys 2.pdz: b'\x00A\x00'
+a[500] and b[500] for 0
+files/00001-GLASSMAJORS.pdz: b''
+files/00041-Alloys 2.pdz: b''
+files/00001-GLASSMAJORS.pdz -- files/00047-Spectrum Only.pdz
+[Match(a=0, b=0, size=246),
+ Match(a=246, b=338, size=2),
+ Match(a=273, b=387, size=1),
+ Match(a=281, b=390, size=1),
+ Match(a=382, b=392, size=4),
+ Match(a=387, b=418, size=1),
+ Match(a=409, b=419, size=1),
+ Match(a=411, b=421, size=5),
+ Match(a=418, b=428, size=4),
+ Match(a=425, b=435, size=5),
+ Match(a=430, b=446, size=2),
+ Match(a=445, b=455, size=3),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 246
+files/00001-GLASSMAJORS.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+files/00047-Spectrum Only.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+a[246] and b[338] for 2
+files/00001-GLASSMAJORS.pdz: b'V\x00'
+files/00047-Spectrum Only.pdz: b'V\x00'
+a[273] and b[387] for 1
+files/00001-GLASSMAJORS.pdz: b'?'
+files/00047-Spectrum Only.pdz: b'?'
+a[281] and b[390] for 1
+files/00001-GLASSMAJORS.pdz: b'>'
+files/00047-Spectrum Only.pdz: b'>'
+a[382] and b[392] for 4
+files/00001-GLASSMAJORS.pdz: b'\x00\x00pA'
+files/00047-Spectrum Only.pdz: b'\x00\x00pA'
+a[387] and b[418] for 1
+files/00001-GLASSMAJORS.pdz: b'\x99'
+files/00047-Spectrum Only.pdz: b'\x99'
+a[409] and b[419] for 1
+files/00001-GLASSMAJORS.pdz: b'\x99'
+files/00047-Spectrum Only.pdz: b'\x99'
+a[411] and b[421] for 5
+files/00001-GLASSMAJORS.pdz: b'B%\x01\x00\x00'
+files/00047-Spectrum Only.pdz: b'B%\x01\x00\x00'
+a[418] and b[428] for 4
+files/00001-GLASSMAJORS.pdz: b'\xa0A\x02\x00'
+files/00047-Spectrum Only.pdz: b'\xa0A\x02\x00'
+a[425] and b[435] for 5
+files/00001-GLASSMAJORS.pdz: b'?\xd6\x07\x01\x00'
+files/00047-Spectrum Only.pdz: b'?\xd6\x07\x01\x00'
+a[430] and b[446] for 2
+files/00001-GLASSMAJORS.pdz: b'\x03\x00'
+files/00047-Spectrum Only.pdz: b'\x03\x00'
+a[445] and b[455] for 3
+files/00001-GLASSMAJORS.pdz: b'D\x00\x08'
+files/00047-Spectrum Only.pdz: b'D\x00\x08'
+a[500] and b[500] for 0
+files/00001-GLASSMAJORS.pdz: b''
+files/00047-Spectrum Only.pdz: b''
+files/00001-GLASSMAJORS.pdz -- files/00088-Spectrometer Mode.pdz
+[Match(a=0, b=0, size=94),
+ Match(a=95, b=95, size=151),
+ Match(a=246, b=346, size=2),
+ Match(a=256, b=420, size=2),
+ Match(a=407, b=425, size=3),
+ Match(a=411, b=429, size=5),
+ Match(a=418, b=436, size=4),
+ Match(a=427, b=445, size=1),
+ Match(a=429, b=447, size=5),
+ Match(a=443, b=461, size=5),
+ Match(a=461, b=473, size=3),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 94
+files/00001-GLASSMAJORS.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00'
+files/00088-Spectrometer Mode.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00'
+a[95] and b[95] for 151
+files/00001-GLASSMAJORS.pdz: b'\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+files/00088-Spectrometer Mode.pdz: b'\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+a[246] and b[346] for 2
+files/00001-GLASSMAJORS.pdz: b'V\x00'
+files/00088-Spectrometer Mode.pdz: b'V\x00'
+a[256] and b[420] for 2
+files/00001-GLASSMAJORS.pdz: b'\x02\x00'
+files/00088-Spectrometer Mode.pdz: b'\x02\x00'
+a[407] and b[425] for 3
+files/00001-GLASSMAJORS.pdz: b'\xc1\x9a\x99'
+files/00088-Spectrometer Mode.pdz: b'\xc1\x9a\x99'
+a[411] and b[429] for 5
+files/00001-GLASSMAJORS.pdz: b'B%\x01\x00\x00'
+files/00088-Spectrometer Mode.pdz: b'B%\x01\x00\x00'
+a[418] and b[436] for 4
+files/00001-GLASSMAJORS.pdz: b'\xa0A\x02\x00'
+files/00088-Spectrometer Mode.pdz: b'\xa0A\x02\x00'
+a[427] and b[445] for 1
+files/00001-GLASSMAJORS.pdz: b'\x07'
+files/00088-Spectrometer Mode.pdz: b'\x07'
+a[429] and b[447] for 5
+files/00001-GLASSMAJORS.pdz: b'\x00\x03\x00\x04\x00'
+files/00088-Spectrometer Mode.pdz: b'\x00\x03\x00\x04\x00'
+a[443] and b[461] for 5
+files/00001-GLASSMAJORS.pdz: b'@~D\x00\x08'
+files/00088-Spectrometer Mode.pdz: b'@~D\x00\x08'
+a[461] and b[473] for 3
+files/00001-GLASSMAJORS.pdz: b'\x00S\x00'
+files/00088-Spectrometer Mode.pdz: b'\x00S\x00'
+a[500] and b[500] for 0
+files/00001-GLASSMAJORS.pdz: b''
+files/00088-Spectrometer Mode.pdz: b''
+files/00001-GLASSMAJORS.pdz -- files/00142-Shavings and Turnings 2.pdz
+[Match(a=0, b=0, size=246),
+ Match(a=252, b=372, size=3),
+ Match(a=256, b=394, size=1),
+ Match(a=278, b=404, size=1),
+ Match(a=293, b=405, size=1),
+ Match(a=386, b=410, size=2),
+ Match(a=403, b=427, size=5),
+ Match(a=411, b=435, size=5),
+ Match(a=418, b=442, size=4),
+ Match(a=425, b=467, size=1),
+ Match(a=445, b=469, size=3),
+ Match(a=459, b=487, size=3),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 246
+files/00001-GLASSMAJORS.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+a[252] and b[372] for 3
+files/00001-GLASSMAJORS.pdz: b'\x00\x00Q'
+files/00142-Shavings and Turnings 2.pdz: b'\x00\x00Q'
+a[256] and b[394] for 1
+files/00001-GLASSMAJORS.pdz: b'\x02'
+files/00142-Shavings and Turnings 2.pdz: b'\x02'
+a[278] and b[404] for 1
+files/00001-GLASSMAJORS.pdz: b'\x8e'
+files/00142-Shavings and Turnings 2.pdz: b'\x8e'
+a[293] and b[405] for 1
+files/00001-GLASSMAJORS.pdz: b'@'
+files/00142-Shavings and Turnings 2.pdz: b'@'
+a[386] and b[410] for 2
+files/00001-GLASSMAJORS.pdz: b'\x9a\x99'
+files/00142-Shavings and Turnings 2.pdz: b'\x9a\x99'
+a[403] and b[427] for 5
+files/00001-GLASSMAJORS.pdz: b'\x00\x00\x00\xdc\xc1'
+files/00142-Shavings and Turnings 2.pdz: b'\x00\x00\x00\xdc\xc1'
+a[411] and b[435] for 5
+files/00001-GLASSMAJORS.pdz: b'B%\x01\x00\x00'
+files/00142-Shavings and Turnings 2.pdz: b'B%\x01\x00\x00'
+a[418] and b[442] for 4
+files/00001-GLASSMAJORS.pdz: b'\xa0A\x02\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\xa0A\x02\x00'
+a[425] and b[467] for 1
+files/00001-GLASSMAJORS.pdz: b'?'
+files/00142-Shavings and Turnings 2.pdz: b'?'
+a[445] and b[469] for 3
+files/00001-GLASSMAJORS.pdz: b'D\x00\x08'
+files/00142-Shavings and Turnings 2.pdz: b'D\x00\x08'
+a[459] and b[487] for 3
+files/00001-GLASSMAJORS.pdz: b'\x00A\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x00A\x00'
+a[500] and b[500] for 0
+files/00001-GLASSMAJORS.pdz: b''
+files/00142-Shavings and Turnings 2.pdz: b''
+files/00001-GLASSMAJORS.pdz -- files/00174-GeoExploration.pdz
+[Match(a=0, b=0, size=95),
+ Match(a=95, b=114, size=1),
+ Match(a=96, b=216, size=2),
+ Match(a=98, b=386, size=4),
+ Match(a=109, b=434, size=3),
+ Match(a=143, b=446, size=2),
+ Match(a=158, b=456, size=1),
+ Match(a=201, b=471, size=3),
+ Match(a=243, b=493, size=2),
+ Match(a=411, b=498, size=1),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 95
+files/00001-GLASSMAJORS.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08'
+files/00174-GeoExploration.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08'
+a[95] and b[114] for 1
+files/00001-GLASSMAJORS.pdz: b'\x08'
+files/00174-GeoExploration.pdz: b'\x08'
+a[96] and b[216] for 2
+files/00001-GLASSMAJORS.pdz: b'\x07\x00'
+files/00174-GeoExploration.pdz: b'\x07\x00'
+a[98] and b[386] for 4
+files/00001-GLASSMAJORS.pdz: b'\x00\x00M\x00'
+files/00174-GeoExploration.pdz: b'\x00\x00M\x00'
+a[109] and b[434] for 3
+files/00001-GLASSMAJORS.pdz: b'\x00l\x00'
+files/00174-GeoExploration.pdz: b'\x00l\x00'
+a[143] and b[446] for 2
+files/00001-GLASSMAJORS.pdz: b'\x00\x02'
+files/00174-GeoExploration.pdz: b'\x00\x02'
+a[158] and b[456] for 1
+files/00001-GLASSMAJORS.pdz: b'9'
+files/00174-GeoExploration.pdz: b'9'
+a[201] and b[471] for 3
+files/00001-GLASSMAJORS.pdz: b'\x00\x06\x00'
+files/00174-GeoExploration.pdz: b'\x00\x06\x00'
+a[243] and b[493] for 2
+files/00001-GLASSMAJORS.pdz: b'\x00\x02'
+files/00174-GeoExploration.pdz: b'\x00\x02'
+a[411] and b[498] for 1
+files/00001-GLASSMAJORS.pdz: b'B'
+files/00174-GeoExploration.pdz: b'B'
+a[500] and b[500] for 0
+files/00001-GLASSMAJORS.pdz: b''
+files/00174-GeoExploration.pdz: b''
+files/00001-GLASSMAJORS.pdz -- files/00206-GLASSMAJORS.pdz
+[Match(a=0, b=0, size=128),
+ Match(a=132, b=128, size=2),
+ Match(a=135, b=135, size=5),
+ Match(a=140, b=166, size=2),
+ Match(a=142, b=260, size=2),
+ Match(a=158, b=279, size=1),
+ Match(a=280, b=283, size=1),
+ Match(a=293, b=285, size=1),
+ Match(a=294, b=294, size=52),
+ Match(a=365, b=377, size=1),
+ Match(a=382, b=382, size=24),
+ Match(a=407, b=407, size=3),
+ Match(a=411, b=411, size=5),
+ Match(a=419, b=419, size=3),
+ Match(a=427, b=427, size=1),
+ Match(a=443, b=443, size=1),
+ Match(a=445, b=445, size=3),
+ Match(a=449, b=449, size=51),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 128
+files/00001-GLASSMAJORS.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x00'
+files/00206-GLASSMAJORS.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x00'
+a[132] and b[128] for 2
+files/00001-GLASSMAJORS.pdz: b'4\x00'
+files/00206-GLASSMAJORS.pdz: b'4\x00'
+a[135] and b[135] for 5
+files/00001-GLASSMAJORS.pdz: b'\x00.\x002\x00'
+files/00206-GLASSMAJORS.pdz: b'\x00.\x002\x00'
+a[140] and b[166] for 2
+files/00001-GLASSMAJORS.pdz: b'6\x00'
+files/00206-GLASSMAJORS.pdz: b'6\x00'
+a[142] and b[260] for 2
+files/00001-GLASSMAJORS.pdz: b'7\x00'
+files/00206-GLASSMAJORS.pdz: b'7\x00'
+a[158] and b[279] for 1
+files/00001-GLASSMAJORS.pdz: b'9'
+files/00206-GLASSMAJORS.pdz: b'9'
+a[280] and b[283] for 1
+files/00001-GLASSMAJORS.pdz: b'\xae'
+files/00206-GLASSMAJORS.pdz: b'\xae'
+a[293] and b[285] for 1
+files/00001-GLASSMAJORS.pdz: b'@'
+files/00206-GLASSMAJORS.pdz: b'@'
+a[294] and b[294] for 52
+files/00001-GLASSMAJORS.pdz: b'\x0b\x00\x00\x00G\x00L\x00A\x00S\x00S\x00M\x00A\x00J\x00O\x00R\x00S\x00\x00\x00\x00\x00\x04\x00\x00\x00U\x00s\x00e\x00r\x00\x03\x00\x92 \x00\x00\x00\x00\x00\x00'
+files/00206-GLASSMAJORS.pdz: b'\x0b\x00\x00\x00G\x00L\x00A\x00S\x00S\x00M\x00A\x00J\x00O\x00R\x00S\x00\x00\x00\x00\x00\x04\x00\x00\x00U\x00s\x00e\x00r\x00\x03\x00\x92 \x00\x00\x00\x00\x00\x00'
+a[365] and b[377] for 1
+files/00001-GLASSMAJORS.pdz: b'@'
+files/00206-GLASSMAJORS.pdz: b'@'
+a[382] and b[382] for 24
+files/00001-GLASSMAJORS.pdz: b'\x00\x00pA\x9a\x99\xcdA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00'
+files/00206-GLASSMAJORS.pdz: b'\x00\x00pA\x9a\x99\xcdA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00'
+a[407] and b[407] for 3
+files/00001-GLASSMAJORS.pdz: b'\xc1\x9a\x99'
+files/00206-GLASSMAJORS.pdz: b'\xc1\x9a\x99'
+a[411] and b[411] for 5
+files/00001-GLASSMAJORS.pdz: b'B%\x01\x00\x00'
+files/00206-GLASSMAJORS.pdz: b'B%\x01\x00\x00'
+a[419] and b[419] for 3
+files/00001-GLASSMAJORS.pdz: b'A\x02\x00'
+files/00206-GLASSMAJORS.pdz: b'A\x02\x00'
+a[427] and b[427] for 1
+files/00001-GLASSMAJORS.pdz: b'\x07'
+files/00206-GLASSMAJORS.pdz: b'\x07'
+a[443] and b[443] for 1
+files/00001-GLASSMAJORS.pdz: b'@'
+files/00206-GLASSMAJORS.pdz: b'@'
+a[445] and b[445] for 3
+files/00001-GLASSMAJORS.pdz: b'D\x00\x08'
+files/00206-GLASSMAJORS.pdz: b'D\x00\x08'
+a[449] and b[449] for 51
+files/00001-GLASSMAJORS.pdz: b'\x00\x00\x00\x0f\x00\x00\x00G\x00L\x00A\x00S\x00S\x00M\x00A\x00J\x00O\x00R\x00S\x00_\x00A\x00E\x00N\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+files/00206-GLASSMAJORS.pdz: b'\x00\x00\x00\x0f\x00\x00\x00G\x00L\x00A\x00S\x00S\x00M\x00A\x00J\x00O\x00R\x00S\x00_\x00A\x00E\x00N\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+a[500] and b[500] for 0
+files/00001-GLASSMAJORS.pdz: b''
+files/00206-GLASSMAJORS.pdz: b''
+files/00008-GeoExploration.pdz -- files/00012-GeoMining.pdz
+[Match(a=0, b=0, size=246),
+ Match(a=272, b=272, size=2),
+ Match(a=285, b=281, size=1),
+ Match(a=286, b=283, size=2),
+ Match(a=289, b=289, size=5),
+ Match(a=295, b=295, size=9),
+ Match(a=319, b=305, size=3),
+ Match(a=324, b=308, size=1),
+ Match(a=325, b=315, size=27),
+ Match(a=359, b=349, size=13),
+ Match(a=383, b=369, size=1),
+ Match(a=384, b=371, size=2),
+ Match(a=387, b=377, size=25),
+ Match(a=413, b=403, size=1),
+ Match(a=417, b=407, size=5),
+ Match(a=425, b=415, size=3),
+ Match(a=432, b=422, size=10),
+ Match(a=451, b=441, size=3),
+ Match(a=455, b=445, size=45),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 246
+files/00008-GeoExploration.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+files/00012-GeoMining.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+a[272] and b[272] for 2
+files/00008-GeoExploration.pdz: b'\x96@'
+files/00012-GeoMining.pdz: b'\x96@'
+a[285] and b[281] for 1
+files/00008-GeoExploration.pdz: b'='
+files/00012-GeoMining.pdz: b'='
+a[286] and b[283] for 2
+files/00008-GeoExploration.pdz: b'\x06\x81'
+files/00012-GeoMining.pdz: b'\x06\x81'
+a[289] and b[289] for 5
+files/00008-GeoExploration.pdz: b'@\x00\x00\xa0@'
+files/00012-GeoMining.pdz: b'@\x00\x00\xa0@'
+a[295] and b[295] for 9
+files/00008-GeoExploration.pdz: b'\x00\x00\x00G\x00e\x00o\x00'
+files/00012-GeoMining.pdz: b'\x00\x00\x00G\x00e\x00o\x00'
+a[319] and b[305] for 3
+files/00008-GeoExploration.pdz: b'\x00i\x00'
+files/00012-GeoMining.pdz: b'\x00i\x00'
+a[324] and b[308] for 1
+files/00008-GeoExploration.pdz: b'n'
+files/00012-GeoMining.pdz: b'n'
+a[325] and b[315] for 27
+files/00008-GeoExploration.pdz: b'\x00\x00\x00\x00\x00\x04\x00\x00\x00U\x00s\x00e\x00r\x00\x03\x00\x90 \x00\x00\x00\x00\x00\x00'
+files/00012-GeoMining.pdz: b'\x00\x00\x00\x00\x00\x04\x00\x00\x00U\x00s\x00e\x00r\x00\x03\x00\x90 \x00\x00\x00\x00\x00\x00'
+a[359] and b[349] for 13
+files/00008-GeoExploration.pdz: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0@'
+files/00012-GeoMining.pdz: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0@'
+a[383] and b[369] for 1
+files/00008-GeoExploration.pdz: b'='
+files/00012-GeoMining.pdz: b'='
+a[384] and b[371] for 2
+files/00008-GeoExploration.pdz: b'\x06\x81'
+files/00012-GeoMining.pdz: b'\x06\x81'
+a[387] and b[377] for 25
+files/00008-GeoExploration.pdz: b'@\x00\x00\xf0A\x00\x00(A\x16\x00\x19\x00\r\x00,\x01\x00\x00\x00\x00\x01\x00\x00\x00'
+files/00012-GeoMining.pdz: b'@\x00\x00\xf0A\x00\x00(A\x16\x00\x19\x00\r\x00,\x01\x00\x00\x00\x00\x01\x00\x00\x00'
+a[413] and b[403] for 1
+files/00008-GeoExploration.pdz: b'\xc1'
+files/00012-GeoMining.pdz: b'\xc1'
+a[417] and b[407] for 5
+files/00008-GeoExploration.pdz: b'B%\x01\x00\x00'
+files/00012-GeoMining.pdz: b'B%\x01\x00\x00'
+a[425] and b[415] for 3
+files/00008-GeoExploration.pdz: b'A\x02\x00'
+files/00012-GeoMining.pdz: b'A\x02\x00'
+a[432] and b[422] for 10
+files/00008-GeoExploration.pdz: b'\xd6\x07\x01\x00\x03\x00\x04\x00\x0f\x00'
+files/00012-GeoMining.pdz: b'\xd6\x07\x01\x00\x03\x00\x04\x00\x0f\x00'
+a[451] and b[441] for 3
+files/00008-GeoExploration.pdz: b'D\x00\x08'
+files/00012-GeoMining.pdz: b'D\x00\x08'
+a[455] and b[445] for 45
+files/00008-GeoExploration.pdz: b'\x00\x00\x00\x0e\x00\x00\x00E\x00x\x00p\x00l\x00o\x00r\x00a\x00t\x00i\x00o\x00n\x00_\x003\x000\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+files/00012-GeoMining.pdz: b'\x00\x00\x00\x0e\x00\x00\x00E\x00x\x00p\x00l\x00o\x00r\x00a\x00t\x00i\x00o\x00n\x00_\x003\x000\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+a[500] and b[500] for 0
+files/00008-GeoExploration.pdz: b''
+files/00012-GeoMining.pdz: b''
+files/00008-GeoExploration.pdz -- files/00041-Alloys 2.pdz
+[Match(a=0, b=0, size=246),
+ Match(a=257, b=253, size=2),
+ Match(a=273, b=285, size=1),
+ Match(a=274, b=304, size=1),
+ Match(a=290, b=362, size=4),
+ Match(a=318, b=366, size=1),
+ Match(a=345, b=384, size=1),
+ Match(a=371, b=389, size=1),
+ Match(a=377, b=390, size=1),
+ Match(a=381, b=409, size=1),
+ Match(a=417, b=411, size=5),
+ Match(a=424, b=418, size=4),
+ Match(a=432, b=426, size=4),
+ Match(a=451, b=445, size=3),
+ Match(a=455, b=449, size=7),
+ Match(a=467, b=465, size=3),
+ Match(a=470, b=470, size=2),
+ Match(a=477, b=477, size=3),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 246
+files/00008-GeoExploration.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+files/00041-Alloys 2.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+a[257] and b[253] for 2
+files/00008-GeoExploration.pdz: b'\x00\x8b'
+files/00041-Alloys 2.pdz: b'\x00\x8b'
+a[273] and b[285] for 1
+files/00008-GeoExploration.pdz: b'@'
+files/00041-Alloys 2.pdz: b'@'
+a[274] and b[304] for 1
+files/00008-GeoExploration.pdz: b'o'
+files/00041-Alloys 2.pdz: b'o'
+a[290] and b[362] for 4
+files/00008-GeoExploration.pdz: b'\x00\x00\xa0@'
+files/00041-Alloys 2.pdz: b'\x00\x00\xa0@'
+a[318] and b[366] for 1
+files/00008-GeoExploration.pdz: b't'
+files/00041-Alloys 2.pdz: b't'
+a[345] and b[384] for 1
+files/00008-GeoExploration.pdz: b' '
+files/00041-Alloys 2.pdz: b' '
+a[371] and b[389] for 1
+files/00008-GeoExploration.pdz: b'@'
+files/00041-Alloys 2.pdz: b'@'
+a[377] and b[390] for 1
+files/00008-GeoExploration.pdz: b'\x16'
+files/00041-Alloys 2.pdz: b'\x16'
+a[381] and b[409] for 1
+files/00008-GeoExploration.pdz: b'\xcc'
+files/00041-Alloys 2.pdz: b'\xcc'
+a[417] and b[411] for 5
+files/00008-GeoExploration.pdz: b'B%\x01\x00\x00'
+files/00041-Alloys 2.pdz: b'B%\x01\x00\x00'
+a[424] and b[418] for 4
+files/00008-GeoExploration.pdz: b'\xa0A\x02\x00'
+files/00041-Alloys 2.pdz: b'\xa0A\x02\x00'
+a[432] and b[426] for 4
+files/00008-GeoExploration.pdz: b'\xd6\x07\x01\x00'
+files/00041-Alloys 2.pdz: b'\xd6\x07\x01\x00'
+a[451] and b[445] for 3
+files/00008-GeoExploration.pdz: b'D\x00\x08'
+files/00041-Alloys 2.pdz: b'D\x00\x08'
+a[455] and b[449] for 7
+files/00008-GeoExploration.pdz: b'\x00\x00\x00\x0e\x00\x00\x00'
+files/00041-Alloys 2.pdz: b'\x00\x00\x00\x0e\x00\x00\x00'
+a[467] and b[465] for 3
+files/00008-GeoExploration.pdz: b'\x00l\x00'
+files/00041-Alloys 2.pdz: b'\x00l\x00'
+a[470] and b[470] for 2
+files/00008-GeoExploration.pdz: b'o\x00'
+files/00041-Alloys 2.pdz: b'o\x00'
+a[477] and b[477] for 3
+files/00008-GeoExploration.pdz: b'\x00i\x00'
+files/00041-Alloys 2.pdz: b'\x00i\x00'
+a[500] and b[500] for 0
+files/00008-GeoExploration.pdz: b''
+files/00041-Alloys 2.pdz: b''
+files/00008-GeoExploration.pdz -- files/00047-Spectrum Only.pdz
+[Match(a=0, b=0, size=246),
+ Match(a=273, b=281, size=1),
+ Match(a=277, b=383, size=1),
+ Match(a=281, b=390, size=1),
+ Match(a=283, b=396, size=2),
+ Match(a=378, b=418, size=1),
+ Match(a=417, b=421, size=5),
+ Match(a=424, b=428, size=4),
+ Match(a=432, b=436, size=4),
+ Match(a=436, b=446, size=2),
+ Match(a=451, b=455, size=3),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 246
+files/00008-GeoExploration.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+files/00047-Spectrum Only.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+a[273] and b[281] for 1
+files/00008-GeoExploration.pdz: b'@'
+files/00047-Spectrum Only.pdz: b'@'
+a[277] and b[383] for 1
+files/00008-GeoExploration.pdz: b'@'
+files/00047-Spectrum Only.pdz: b'@'
+a[281] and b[390] for 1
+files/00008-GeoExploration.pdz: b'>'
+files/00047-Spectrum Only.pdz: b'>'
+a[283] and b[396] for 2
+files/00008-GeoExploration.pdz: b'\xcc\xcc'
+files/00047-Spectrum Only.pdz: b'\xcc\xcc'
+a[378] and b[418] for 1
+files/00008-GeoExploration.pdz: b'\x99'
+files/00047-Spectrum Only.pdz: b'\x99'
+a[417] and b[421] for 5
+files/00008-GeoExploration.pdz: b'B%\x01\x00\x00'
+files/00047-Spectrum Only.pdz: b'B%\x01\x00\x00'
+a[424] and b[428] for 4
+files/00008-GeoExploration.pdz: b'\xa0A\x02\x00'
+files/00047-Spectrum Only.pdz: b'\xa0A\x02\x00'
+a[432] and b[436] for 4
+files/00008-GeoExploration.pdz: b'\xd6\x07\x01\x00'
+files/00047-Spectrum Only.pdz: b'\xd6\x07\x01\x00'
+a[436] and b[446] for 2
+files/00008-GeoExploration.pdz: b'\x03\x00'
+files/00047-Spectrum Only.pdz: b'\x03\x00'
+a[451] and b[455] for 3
+files/00008-GeoExploration.pdz: b'D\x00\x08'
+files/00047-Spectrum Only.pdz: b'D\x00\x08'
+a[500] and b[500] for 0
+files/00008-GeoExploration.pdz: b''
+files/00047-Spectrum Only.pdz: b''
+files/00008-GeoExploration.pdz -- files/00088-Spectrometer Mode.pdz
+[Match(a=0, b=0, size=94),
+ Match(a=95, b=95, size=151),
+ Match(a=247, b=247, size=7),
+ Match(a=274, b=310, size=1),
+ Match(a=280, b=427, size=1),
+ Match(a=417, b=429, size=5),
+ Match(a=423, b=438, size=1),
+ Match(a=426, b=460, size=1),
+ Match(a=450, b=462, size=4),
+ Match(a=465, b=475, size=3),
+ Match(a=469, b=485, size=3),
+ Match(a=472, b=496, size=2),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 94
+files/00008-GeoExploration.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00'
+files/00088-Spectrometer Mode.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00'
+a[95] and b[95] for 151
+files/00008-GeoExploration.pdz: b'\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+files/00088-Spectrometer Mode.pdz: b'\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+a[247] and b[247] for 7
+files/00008-GeoExploration.pdz: b'\x00\x00\x00\x01\x00\x00\x00'
+files/00088-Spectrometer Mode.pdz: b'\x00\x00\x00\x01\x00\x00\x00'
+a[274] and b[310] for 1
+files/00008-GeoExploration.pdz: b'o'
+files/00088-Spectrometer Mode.pdz: b'o'
+a[280] and b[427] for 1
+files/00008-GeoExploration.pdz: b'\x99'
+files/00088-Spectrometer Mode.pdz: b'\x99'
+a[417] and b[429] for 5
+files/00008-GeoExploration.pdz: b'B%\x01\x00\x00'
+files/00088-Spectrometer Mode.pdz: b'B%\x01\x00\x00'
+a[423] and b[438] for 1
+files/00008-GeoExploration.pdz: b'\x02'
+files/00088-Spectrometer Mode.pdz: b'\x02'
+a[426] and b[460] for 1
+files/00008-GeoExploration.pdz: b'\x02'
+files/00088-Spectrometer Mode.pdz: b'\x02'
+a[450] and b[462] for 4
+files/00008-GeoExploration.pdz: b'~D\x00\x08'
+files/00088-Spectrometer Mode.pdz: b'~D\x00\x08'
+a[465] and b[475] for 3
+files/00008-GeoExploration.pdz: b'\x00p\x00'
+files/00088-Spectrometer Mode.pdz: b'\x00p\x00'
+a[469] and b[485] for 3
+files/00008-GeoExploration.pdz: b'\x00o\x00'
+files/00088-Spectrometer Mode.pdz: b'\x00o\x00'
+a[472] and b[496] for 2
+files/00008-GeoExploration.pdz: b'r\x00'
+files/00088-Spectrometer Mode.pdz: b'r\x00'
+a[500] and b[500] for 0
+files/00008-GeoExploration.pdz: b''
+files/00088-Spectrometer Mode.pdz: b''
+files/00008-GeoExploration.pdz -- files/00142-Shavings and Turnings 2.pdz
+[Match(a=0, b=0, size=246),
+ Match(a=255, b=286, size=1),
+ Match(a=290, b=386, size=4),
+ Match(a=371, b=393, size=1),
+ Match(a=375, b=405, size=1),
+ Match(a=378, b=411, size=1),
+ Match(a=387, b=413, size=1),
+ Match(a=396, b=414, size=16),
+ Match(a=413, b=431, size=1),
+ Match(a=417, b=435, size=5),
+ Match(a=424, b=442, size=4),
+ Match(a=433, b=451, size=1),
+ Match(a=435, b=453, size=3),
+ Match(a=451, b=469, size=3),
+ Match(a=455, b=473, size=7),
+ Match(a=467, b=489, size=3),
+ Match(a=470, b=494, size=2),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 246
+files/00008-GeoExploration.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+a[255] and b[286] for 1
+files/00008-GeoExploration.pdz: b'\xfa'
+files/00142-Shavings and Turnings 2.pdz: b'\xfa'
+a[290] and b[386] for 4
+files/00008-GeoExploration.pdz: b'\x00\x00\xa0@'
+files/00142-Shavings and Turnings 2.pdz: b'\x00\x00\xa0@'
+a[371] and b[393] for 1
+files/00008-GeoExploration.pdz: b'@'
+files/00142-Shavings and Turnings 2.pdz: b'@'
+a[375] and b[405] for 1
+files/00008-GeoExploration.pdz: b'@'
+files/00142-Shavings and Turnings 2.pdz: b'@'
+a[378] and b[411] for 1
+files/00008-GeoExploration.pdz: b'\x99'
+files/00142-Shavings and Turnings 2.pdz: b'\x99'
+a[387] and b[413] for 1
+files/00008-GeoExploration.pdz: b'@'
+files/00142-Shavings and Turnings 2.pdz: b'@'
+a[396] and b[414] for 16
+files/00008-GeoExploration.pdz: b'\x16\x00\x19\x00\r\x00,\x01\x00\x00\x00\x00\x01\x00\x00\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x16\x00\x19\x00\r\x00,\x01\x00\x00\x00\x00\x01\x00\x00\x00'
+a[413] and b[431] for 1
+files/00008-GeoExploration.pdz: b'\xc1'
+files/00142-Shavings and Turnings 2.pdz: b'\xc1'
+a[417] and b[435] for 5
+files/00008-GeoExploration.pdz: b'B%\x01\x00\x00'
+files/00142-Shavings and Turnings 2.pdz: b'B%\x01\x00\x00'
+a[424] and b[442] for 4
+files/00008-GeoExploration.pdz: b'\xa0A\x02\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\xa0A\x02\x00'
+a[433] and b[451] for 1
+files/00008-GeoExploration.pdz: b'\x07'
+files/00142-Shavings and Turnings 2.pdz: b'\x07'
+a[435] and b[453] for 3
+files/00008-GeoExploration.pdz: b'\x00\x03\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x00\x03\x00'
+a[451] and b[469] for 3
+files/00008-GeoExploration.pdz: b'D\x00\x08'
+files/00142-Shavings and Turnings 2.pdz: b'D\x00\x08'
+a[455] and b[473] for 7
+files/00008-GeoExploration.pdz: b'\x00\x00\x00\x0e\x00\x00\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x00\x00\x00\x0e\x00\x00\x00'
+a[467] and b[489] for 3
+files/00008-GeoExploration.pdz: b'\x00l\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x00l\x00'
+a[470] and b[494] for 2
+files/00008-GeoExploration.pdz: b'o\x00'
+files/00142-Shavings and Turnings 2.pdz: b'o\x00'
+a[500] and b[500] for 0
+files/00008-GeoExploration.pdz: b''
+files/00142-Shavings and Turnings 2.pdz: b''
+files/00008-GeoExploration.pdz -- files/00174-GeoExploration.pdz
+[Match(a=0, b=0, size=95),
+ Match(a=95, b=114, size=1),
+ Match(a=96, b=216, size=2),
+ Match(a=98, b=386, size=4),
+ Match(a=109, b=434, size=3),
+ Match(a=143, b=446, size=2),
+ Match(a=158, b=456, size=1),
+ Match(a=284, b=458, size=2),
+ Match(a=286, b=472, size=1),
+ Match(a=294, b=490, size=4),
+ Match(a=352, b=496, size=1),
+ Match(a=417, b=498, size=1),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 95
+files/00008-GeoExploration.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08'
+files/00174-GeoExploration.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08'
+a[95] and b[114] for 1
+files/00008-GeoExploration.pdz: b'\x08'
+files/00174-GeoExploration.pdz: b'\x08'
+a[96] and b[216] for 2
+files/00008-GeoExploration.pdz: b'\x07\x00'
+files/00174-GeoExploration.pdz: b'\x07\x00'
+a[98] and b[386] for 4
+files/00008-GeoExploration.pdz: b'\x00\x00M\x00'
+files/00174-GeoExploration.pdz: b'\x00\x00M\x00'
+a[109] and b[434] for 3
+files/00008-GeoExploration.pdz: b'\x00l\x00'
+files/00174-GeoExploration.pdz: b'\x00l\x00'
+a[143] and b[446] for 2
+files/00008-GeoExploration.pdz: b'\x00\x02'
+files/00174-GeoExploration.pdz: b'\x00\x02'
+a[158] and b[456] for 1
+files/00008-GeoExploration.pdz: b'9'
+files/00174-GeoExploration.pdz: b'9'
+a[284] and b[458] for 2
+files/00008-GeoExploration.pdz: b'\xcc='
+files/00174-GeoExploration.pdz: b'\xcc='
+a[286] and b[472] for 1
+files/00008-GeoExploration.pdz: b'\x06'
+files/00174-GeoExploration.pdz: b'\x06'
+a[294] and b[490] for 4
+files/00008-GeoExploration.pdz: b'\x0e\x00\x00\x00'
+files/00174-GeoExploration.pdz: b'\x0e\x00\x00\x00'
+a[352] and b[496] for 1
+files/00008-GeoExploration.pdz: b'\xd1'
+files/00174-GeoExploration.pdz: b'\xd1'
+a[417] and b[498] for 1
+files/00008-GeoExploration.pdz: b'B'
+files/00174-GeoExploration.pdz: b'B'
+a[500] and b[500] for 0
+files/00008-GeoExploration.pdz: b''
+files/00174-GeoExploration.pdz: b''
+files/00008-GeoExploration.pdz -- files/00206-GLASSMAJORS.pdz
+[Match(a=0, b=0, size=128),
+ Match(a=132, b=128, size=2),
+ Match(a=135, b=135, size=5),
+ Match(a=140, b=166, size=2),
+ Match(a=142, b=260, size=2),
+ Match(a=158, b=279, size=1),
+ Match(a=275, b=280, size=1),
+ Match(a=293, b=285, size=2),
+ Match(a=295, b=295, size=5),
+ Match(a=300, b=332, size=2),
+ Match(a=303, b=481, size=3),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 128
+files/00008-GeoExploration.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x00'
+files/00206-GLASSMAJORS.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x00'
+a[132] and b[128] for 2
+files/00008-GeoExploration.pdz: b'4\x00'
+files/00206-GLASSMAJORS.pdz: b'4\x00'
+a[135] and b[135] for 5
+files/00008-GeoExploration.pdz: b'\x00.\x002\x00'
+files/00206-GLASSMAJORS.pdz: b'\x00.\x002\x00'
+a[140] and b[166] for 2
+files/00008-GeoExploration.pdz: b'6\x00'
+files/00206-GLASSMAJORS.pdz: b'6\x00'
+a[142] and b[260] for 2
+files/00008-GeoExploration.pdz: b'7\x00'
+files/00206-GLASSMAJORS.pdz: b'7\x00'
+a[158] and b[279] for 1
+files/00008-GeoExploration.pdz: b'9'
+files/00206-GLASSMAJORS.pdz: b'9'
+a[275] and b[280] for 1
+files/00008-GeoExploration.pdz: b'\x12'
+files/00206-GLASSMAJORS.pdz: b'\x12'
+a[293] and b[285] for 2
+files/00008-GeoExploration.pdz: b'@\x0e'
+files/00206-GLASSMAJORS.pdz: b'@\x0e'
+a[295] and b[295] for 5
+files/00008-GeoExploration.pdz: b'\x00\x00\x00G\x00'
+files/00206-GLASSMAJORS.pdz: b'\x00\x00\x00G\x00'
+a[300] and b[332] for 2
+files/00008-GeoExploration.pdz: b'e\x00'
+files/00206-GLASSMAJORS.pdz: b'e\x00'
+a[303] and b[481] for 3
+files/00008-GeoExploration.pdz: b'\x00E\x00'
+files/00206-GLASSMAJORS.pdz: b'\x00E\x00'
+a[500] and b[500] for 0
+files/00008-GeoExploration.pdz: b''
+files/00206-GLASSMAJORS.pdz: b''
+files/00012-GeoMining.pdz -- files/00041-Alloys 2.pdz
+[Match(a=0, b=0, size=246),
+ Match(a=246, b=326, size=2),
+ Match(a=273, b=365, size=1),
+ Match(a=288, b=368, size=2),
+ Match(a=293, b=381, size=1),
+ Match(a=335, b=384, size=1),
+ Match(a=361, b=389, size=1),
+ Match(a=386, b=390, size=16),
+ Match(a=403, b=407, size=1),
+ Match(a=407, b=411, size=5),
+ Match(a=415, b=419, size=3),
+ Match(a=422, b=426, size=4),
+ Match(a=440, b=444, size=4),
+ Match(a=445, b=449, size=7),
+ Match(a=457, b=465, size=3),
+ Match(a=460, b=470, size=2),
+ Match(a=467, b=477, size=3),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 246
+files/00012-GeoMining.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+files/00041-Alloys 2.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+a[246] and b[326] for 2
+files/00012-GeoMining.pdz: b'R\x00'
+files/00041-Alloys 2.pdz: b'R\x00'
+a[273] and b[365] for 1
+files/00012-GeoMining.pdz: b'@'
+files/00041-Alloys 2.pdz: b'@'
+a[288] and b[368] for 2
+files/00012-GeoMining.pdz: b'\x91@'
+files/00041-Alloys 2.pdz: b'\x91@'
+a[293] and b[381] for 1
+files/00012-GeoMining.pdz: b'@'
+files/00041-Alloys 2.pdz: b'@'
+a[335] and b[384] for 1
+files/00012-GeoMining.pdz: b' '
+files/00041-Alloys 2.pdz: b' '
+a[361] and b[389] for 1
+files/00012-GeoMining.pdz: b'@'
+files/00041-Alloys 2.pdz: b'@'
+a[386] and b[390] for 16
+files/00012-GeoMining.pdz: b'\x16\x00\x19\x00\r\x00,\x01\x00\x00\x00\x00\x01\x00\x00\x00'
+files/00041-Alloys 2.pdz: b'\x16\x00\x19\x00\r\x00,\x01\x00\x00\x00\x00\x01\x00\x00\x00'
+a[403] and b[407] for 1
+files/00012-GeoMining.pdz: b'\xc1'
+files/00041-Alloys 2.pdz: b'\xc1'
+a[407] and b[411] for 5
+files/00012-GeoMining.pdz: b'B%\x01\x00\x00'
+files/00041-Alloys 2.pdz: b'B%\x01\x00\x00'
+a[415] and b[419] for 3
+files/00012-GeoMining.pdz: b'A\x02\x00'
+files/00041-Alloys 2.pdz: b'A\x02\x00'
+a[422] and b[426] for 4
+files/00012-GeoMining.pdz: b'\xd6\x07\x01\x00'
+files/00041-Alloys 2.pdz: b'\xd6\x07\x01\x00'
+a[440] and b[444] for 4
+files/00012-GeoMining.pdz: b'}D\x00\x08'
+files/00041-Alloys 2.pdz: b'}D\x00\x08'
+a[445] and b[449] for 7
+files/00012-GeoMining.pdz: b'\x00\x00\x00\x0e\x00\x00\x00'
+files/00041-Alloys 2.pdz: b'\x00\x00\x00\x0e\x00\x00\x00'
+a[457] and b[465] for 3
+files/00012-GeoMining.pdz: b'\x00l\x00'
+files/00041-Alloys 2.pdz: b'\x00l\x00'
+a[460] and b[470] for 2
+files/00012-GeoMining.pdz: b'o\x00'
+files/00041-Alloys 2.pdz: b'o\x00'
+a[467] and b[477] for 3
+files/00012-GeoMining.pdz: b'\x00i\x00'
+files/00041-Alloys 2.pdz: b'\x00i\x00'
+a[500] and b[500] for 0
+files/00012-GeoMining.pdz: b''
+files/00041-Alloys 2.pdz: b''
+files/00012-GeoMining.pdz -- files/00047-Spectrum Only.pdz
+[Match(a=0, b=0, size=246),
+ Match(a=246, b=336, size=2),
+ Match(a=259, b=385, size=1),
+ Match(a=381, b=395, size=1),
+ Match(a=385, b=399, size=1),
+ Match(a=399, b=413, size=5),
+ Match(a=407, b=421, size=5),
+ Match(a=415, b=429, size=3),
+ Match(a=422, b=436, size=4),
+ Match(a=426, b=446, size=2),
+ Match(a=440, b=454, size=4),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 246
+files/00012-GeoMining.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+files/00047-Spectrum Only.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+a[246] and b[336] for 2
+files/00012-GeoMining.pdz: b'R\x00'
+files/00047-Spectrum Only.pdz: b'R\x00'
+a[259] and b[385] for 1
+files/00012-GeoMining.pdz: b'v'
+files/00047-Spectrum Only.pdz: b'v'
+a[381] and b[395] for 1
+files/00012-GeoMining.pdz: b'A'
+files/00047-Spectrum Only.pdz: b'A'
+a[385] and b[399] for 1
+files/00012-GeoMining.pdz: b'A'
+files/00047-Spectrum Only.pdz: b'A'
+a[399] and b[413] for 5
+files/00012-GeoMining.pdz: b'\x00\x00\x00\xd8\xc1'
+files/00047-Spectrum Only.pdz: b'\x00\x00\x00\xd8\xc1'
+a[407] and b[421] for 5
+files/00012-GeoMining.pdz: b'B%\x01\x00\x00'
+files/00047-Spectrum Only.pdz: b'B%\x01\x00\x00'
+a[415] and b[429] for 3
+files/00012-GeoMining.pdz: b'A\x02\x00'
+files/00047-Spectrum Only.pdz: b'A\x02\x00'
+a[422] and b[436] for 4
+files/00012-GeoMining.pdz: b'\xd6\x07\x01\x00'
+files/00047-Spectrum Only.pdz: b'\xd6\x07\x01\x00'
+a[426] and b[446] for 2
+files/00012-GeoMining.pdz: b'\x03\x00'
+files/00047-Spectrum Only.pdz: b'\x03\x00'
+a[440] and b[454] for 4
+files/00012-GeoMining.pdz: b'}D\x00\x08'
+files/00047-Spectrum Only.pdz: b'}D\x00\x08'
+a[500] and b[500] for 0
+files/00012-GeoMining.pdz: b''
+files/00047-Spectrum Only.pdz: b''
+files/00012-GeoMining.pdz -- files/00088-Spectrometer Mode.pdz
+[Match(a=0, b=0, size=94),
+ Match(a=95, b=95, size=151),
+ Match(a=246, b=344, size=2),
+ Match(a=259, b=394, size=1),
+ Match(a=399, b=421, size=5),
+ Match(a=407, b=429, size=5),
+ Match(a=415, b=437, size=3),
+ Match(a=423, b=445, size=1),
+ Match(a=425, b=447, size=5),
+ Match(a=433, b=497, size=3),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 94
+files/00012-GeoMining.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00'
+files/00088-Spectrometer Mode.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00'
+a[95] and b[95] for 151
+files/00012-GeoMining.pdz: b'\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+files/00088-Spectrometer Mode.pdz: b'\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+a[246] and b[344] for 2
+files/00012-GeoMining.pdz: b'R\x00'
+files/00088-Spectrometer Mode.pdz: b'R\x00'
+a[259] and b[394] for 1
+files/00012-GeoMining.pdz: b'v'
+files/00088-Spectrometer Mode.pdz: b'v'
+a[399] and b[421] for 5
+files/00012-GeoMining.pdz: b'\x00\x00\x00\xd8\xc1'
+files/00088-Spectrometer Mode.pdz: b'\x00\x00\x00\xd8\xc1'
+a[407] and b[429] for 5
+files/00012-GeoMining.pdz: b'B%\x01\x00\x00'
+files/00088-Spectrometer Mode.pdz: b'B%\x01\x00\x00'
+a[415] and b[437] for 3
+files/00012-GeoMining.pdz: b'A\x02\x00'
+files/00088-Spectrometer Mode.pdz: b'A\x02\x00'
+a[423] and b[445] for 1
+files/00012-GeoMining.pdz: b'\x07'
+files/00088-Spectrometer Mode.pdz: b'\x07'
+a[425] and b[447] for 5
+files/00012-GeoMining.pdz: b'\x00\x03\x00\x04\x00'
+files/00088-Spectrometer Mode.pdz: b'\x00\x03\x00\x04\x00'
+a[433] and b[497] for 3
+files/00012-GeoMining.pdz: b'\x00/\x00'
+files/00088-Spectrometer Mode.pdz: b'\x00/\x00'
+a[500] and b[500] for 0
+files/00012-GeoMining.pdz: b''
+files/00088-Spectrometer Mode.pdz: b''
+files/00012-GeoMining.pdz -- files/00142-Shavings and Turnings 2.pdz
+[Match(a=0, b=0, size=246),
+ Match(a=258, b=294, size=1),
+ Match(a=259, b=304, size=2),
+ Match(a=290, b=386, size=4),
+ Match(a=304, b=403, size=1),
+ Match(a=361, b=405, size=1),
+ Match(a=365, b=413, size=1),
+ Match(a=386, b=414, size=16),
+ Match(a=403, b=431, size=1),
+ Match(a=407, b=435, size=5),
+ Match(a=415, b=443, size=3),
+ Match(a=420, b=462, size=1),
+ Match(a=435, b=463, size=4),
+ Match(a=440, b=468, size=4),
+ Match(a=445, b=473, size=7),
+ Match(a=457, b=489, size=3),
+ Match(a=460, b=494, size=2),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 246
+files/00012-GeoMining.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+a[258] and b[294] for 1
+files/00012-GeoMining.pdz: b'\x17'
+files/00142-Shavings and Turnings 2.pdz: b'\x17'
+a[259] and b[304] for 2
+files/00012-GeoMining.pdz: b'v\x00'
+files/00142-Shavings and Turnings 2.pdz: b'v\x00'
+a[290] and b[386] for 4
+files/00012-GeoMining.pdz: b'\x00\x00\xa0@'
+files/00142-Shavings and Turnings 2.pdz: b'\x00\x00\xa0@'
+a[304] and b[403] for 1
+files/00012-GeoMining.pdz: b'M'
+files/00142-Shavings and Turnings 2.pdz: b'M'
+a[361] and b[405] for 1
+files/00012-GeoMining.pdz: b'@'
+files/00142-Shavings and Turnings 2.pdz: b'@'
+a[365] and b[413] for 1
+files/00012-GeoMining.pdz: b'@'
+files/00142-Shavings and Turnings 2.pdz: b'@'
+a[386] and b[414] for 16
+files/00012-GeoMining.pdz: b'\x16\x00\x19\x00\r\x00,\x01\x00\x00\x00\x00\x01\x00\x00\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x16\x00\x19\x00\r\x00,\x01\x00\x00\x00\x00\x01\x00\x00\x00'
+a[403] and b[431] for 1
+files/00012-GeoMining.pdz: b'\xc1'
+files/00142-Shavings and Turnings 2.pdz: b'\xc1'
+a[407] and b[435] for 5
+files/00012-GeoMining.pdz: b'B%\x01\x00\x00'
+files/00142-Shavings and Turnings 2.pdz: b'B%\x01\x00\x00'
+a[415] and b[443] for 3
+files/00012-GeoMining.pdz: b'A\x02\x00'
+files/00142-Shavings and Turnings 2.pdz: b'A\x02\x00'
+a[420] and b[462] for 1
+files/00012-GeoMining.pdz: b'$'
+files/00142-Shavings and Turnings 2.pdz: b'$'
+a[435] and b[463] for 4
+files/00012-GeoMining.pdz: b'\x00\x00\x00\xff'
+files/00142-Shavings and Turnings 2.pdz: b'\x00\x00\x00\xff'
+a[440] and b[468] for 4
+files/00012-GeoMining.pdz: b'}D\x00\x08'
+files/00142-Shavings and Turnings 2.pdz: b'}D\x00\x08'
+a[445] and b[473] for 7
+files/00012-GeoMining.pdz: b'\x00\x00\x00\x0e\x00\x00\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x00\x00\x00\x0e\x00\x00\x00'
+a[457] and b[489] for 3
+files/00012-GeoMining.pdz: b'\x00l\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x00l\x00'
+a[460] and b[494] for 2
+files/00012-GeoMining.pdz: b'o\x00'
+files/00142-Shavings and Turnings 2.pdz: b'o\x00'
+a[500] and b[500] for 0
+files/00012-GeoMining.pdz: b''
+files/00142-Shavings and Turnings 2.pdz: b''
+files/00012-GeoMining.pdz -- files/00174-GeoExploration.pdz
+[Match(a=0, b=0, size=95),
+ Match(a=95, b=114, size=1),
+ Match(a=96, b=216, size=2),
+ Match(a=98, b=386, size=4),
+ Match(a=109, b=434, size=3),
+ Match(a=143, b=446, size=2),
+ Match(a=158, b=456, size=1),
+ Match(a=201, b=471, size=3),
+ Match(a=243, b=493, size=2),
+ Match(a=407, b=498, size=1),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 95
+files/00012-GeoMining.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08'
+files/00174-GeoExploration.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08'
+a[95] and b[114] for 1
+files/00012-GeoMining.pdz: b'\x08'
+files/00174-GeoExploration.pdz: b'\x08'
+a[96] and b[216] for 2
+files/00012-GeoMining.pdz: b'\x07\x00'
+files/00174-GeoExploration.pdz: b'\x07\x00'
+a[98] and b[386] for 4
+files/00012-GeoMining.pdz: b'\x00\x00M\x00'
+files/00174-GeoExploration.pdz: b'\x00\x00M\x00'
+a[109] and b[434] for 3
+files/00012-GeoMining.pdz: b'\x00l\x00'
+files/00174-GeoExploration.pdz: b'\x00l\x00'
+a[143] and b[446] for 2
+files/00012-GeoMining.pdz: b'\x00\x02'
+files/00174-GeoExploration.pdz: b'\x00\x02'
+a[158] and b[456] for 1
+files/00012-GeoMining.pdz: b'9'
+files/00174-GeoExploration.pdz: b'9'
+a[201] and b[471] for 3
+files/00012-GeoMining.pdz: b'\x00\x06\x00'
+files/00174-GeoExploration.pdz: b'\x00\x06\x00'
+a[243] and b[493] for 2
+files/00012-GeoMining.pdz: b'\x00\x02'
+files/00174-GeoExploration.pdz: b'\x00\x02'
+a[407] and b[498] for 1
+files/00012-GeoMining.pdz: b'B'
+files/00174-GeoExploration.pdz: b'B'
+a[500] and b[500] for 0
+files/00012-GeoMining.pdz: b''
+files/00174-GeoExploration.pdz: b''
+files/00012-GeoMining.pdz -- files/00206-GLASSMAJORS.pdz
+[Match(a=0, b=0, size=128),
+ Match(a=132, b=128, size=2),
+ Match(a=135, b=135, size=5),
+ Match(a=140, b=166, size=2),
+ Match(a=142, b=260, size=2),
+ Match(a=144, b=402, size=1),
+ Match(a=399, b=403, size=5),
+ Match(a=407, b=411, size=5),
+ Match(a=414, b=418, size=4),
+ Match(a=423, b=427, size=1),
+ Match(a=440, b=444, size=4),
+ Match(a=451, b=481, size=3),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 128
+files/00012-GeoMining.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x00'
+files/00206-GLASSMAJORS.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x00'
+a[132] and b[128] for 2
+files/00012-GeoMining.pdz: b'4\x00'
+files/00206-GLASSMAJORS.pdz: b'4\x00'
+a[135] and b[135] for 5
+files/00012-GeoMining.pdz: b'\x00.\x002\x00'
+files/00206-GLASSMAJORS.pdz: b'\x00.\x002\x00'
+a[140] and b[166] for 2
+files/00012-GeoMining.pdz: b'6\x00'
+files/00206-GLASSMAJORS.pdz: b'6\x00'
+a[142] and b[260] for 2
+files/00012-GeoMining.pdz: b'7\x00'
+files/00206-GLASSMAJORS.pdz: b'7\x00'
+a[144] and b[402] for 1
+files/00012-GeoMining.pdz: b'\x02'
+files/00206-GLASSMAJORS.pdz: b'\x02'
+a[399] and b[403] for 5
+files/00012-GeoMining.pdz: b'\x00\x00\x00\xd8\xc1'
+files/00206-GLASSMAJORS.pdz: b'\x00\x00\x00\xd8\xc1'
+a[407] and b[411] for 5
+files/00012-GeoMining.pdz: b'B%\x01\x00\x00'
+files/00206-GLASSMAJORS.pdz: b'B%\x01\x00\x00'
+a[414] and b[418] for 4
+files/00012-GeoMining.pdz: b'\x9fA\x02\x00'
+files/00206-GLASSMAJORS.pdz: b'\x9fA\x02\x00'
+a[423] and b[427] for 1
+files/00012-GeoMining.pdz: b'\x07'
+files/00206-GLASSMAJORS.pdz: b'\x07'
+a[440] and b[444] for 4
+files/00012-GeoMining.pdz: b'}D\x00\x08'
+files/00206-GLASSMAJORS.pdz: b'}D\x00\x08'
+a[451] and b[481] for 3
+files/00012-GeoMining.pdz: b'\x00E\x00'
+files/00206-GLASSMAJORS.pdz: b'\x00E\x00'
+a[500] and b[500] for 0
+files/00012-GeoMining.pdz: b''
+files/00206-GLASSMAJORS.pdz: b''
+files/00041-Alloys 2.pdz -- files/00047-Spectrum Only.pdz
+[Match(a=0, b=0, size=246),
+ Match(a=246, b=338, size=2),
+ Match(a=248, b=410, size=6),
+ Match(a=270, b=416, size=1),
+ Match(a=278, b=418, size=1),
+ Match(a=387, b=419, size=1),
+ Match(a=411, b=421, size=5),
+ Match(a=418, b=428, size=4),
+ Match(a=426, b=436, size=8),
+ Match(a=436, b=444, size=2),
+ Match(a=444, b=454, size=4),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 246
+files/00041-Alloys 2.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+files/00047-Spectrum Only.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+a[246] and b[338] for 2
+files/00041-Alloys 2.pdz: b'V\x00'
+files/00047-Spectrum Only.pdz: b'V\x00'
+a[248] and b[410] for 6
+files/00041-Alloys 2.pdz: b'\x00\x00\x02\x00\x00\x00'
+files/00047-Spectrum Only.pdz: b'\x00\x00\x02\x00\x00\x00'
+a[270] and b[416] for 1
+files/00041-Alloys 2.pdz: b'\xd8'
+files/00047-Spectrum Only.pdz: b'\xd8'
+a[278] and b[418] for 1
+files/00041-Alloys 2.pdz: b'\x99'
+files/00047-Spectrum Only.pdz: b'\x99'
+a[387] and b[419] for 1
+files/00041-Alloys 2.pdz: b'\x99'
+files/00047-Spectrum Only.pdz: b'\x99'
+a[411] and b[421] for 5
+files/00041-Alloys 2.pdz: b'B%\x01\x00\x00'
+files/00047-Spectrum Only.pdz: b'B%\x01\x00\x00'
+a[418] and b[428] for 4
+files/00041-Alloys 2.pdz: b'\xa0A\x02\x00'
+files/00047-Spectrum Only.pdz: b'\xa0A\x02\x00'
+a[426] and b[436] for 8
+files/00041-Alloys 2.pdz: b'\xd6\x07\x01\x00\x00\x00\x01\x00'
+files/00047-Spectrum Only.pdz: b'\xd6\x07\x01\x00\x00\x00\x01\x00'
+a[436] and b[444] for 2
+files/00041-Alloys 2.pdz: b'\x0e\x00'
+files/00047-Spectrum Only.pdz: b'\x0e\x00'
+a[444] and b[454] for 4
+files/00041-Alloys 2.pdz: b'}D\x00\x08'
+files/00047-Spectrum Only.pdz: b'}D\x00\x08'
+a[500] and b[500] for 0
+files/00041-Alloys 2.pdz: b''
+files/00047-Spectrum Only.pdz: b''
+files/00041-Alloys 2.pdz -- files/00088-Spectrometer Mode.pdz
+[Match(a=0, b=0, size=94),
+ Match(a=95, b=95, size=151),
+ Match(a=246, b=346, size=2),
+ Match(a=248, b=418, size=6),
+ Match(a=270, b=424, size=1),
+ Match(a=350, b=425, size=1),
+ Match(a=386, b=426, size=2),
+ Match(a=411, b=429, size=5),
+ Match(a=418, b=436, size=4),
+ Match(a=427, b=445, size=1),
+ Match(a=445, b=463, size=3),
+ Match(a=453, b=471, size=5),
+ Match(a=458, b=482, size=2),
+ Match(a=469, b=485, size=3),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 94
+files/00041-Alloys 2.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00'
+files/00088-Spectrometer Mode.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00'
+a[95] and b[95] for 151
+files/00041-Alloys 2.pdz: b'\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+files/00088-Spectrometer Mode.pdz: b'\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+a[246] and b[346] for 2
+files/00041-Alloys 2.pdz: b'V\x00'
+files/00088-Spectrometer Mode.pdz: b'V\x00'
+a[248] and b[418] for 6
+files/00041-Alloys 2.pdz: b'\x00\x00\x02\x00\x00\x00'
+files/00088-Spectrometer Mode.pdz: b'\x00\x00\x02\x00\x00\x00'
+a[270] and b[424] for 1
+files/00041-Alloys 2.pdz: b'\xd8'
+files/00088-Spectrometer Mode.pdz: b'\xd8'
+a[350] and b[425] for 1
+files/00041-Alloys 2.pdz: b'\xc1'
+files/00088-Spectrometer Mode.pdz: b'\xc1'
+a[386] and b[426] for 2
+files/00041-Alloys 2.pdz: b'\x9a\x99'
+files/00088-Spectrometer Mode.pdz: b'\x9a\x99'
+a[411] and b[429] for 5
+files/00041-Alloys 2.pdz: b'B%\x01\x00\x00'
+files/00088-Spectrometer Mode.pdz: b'B%\x01\x00\x00'
+a[418] and b[436] for 4
+files/00041-Alloys 2.pdz: b'\xa0A\x02\x00'
+files/00088-Spectrometer Mode.pdz: b'\xa0A\x02\x00'
+a[427] and b[445] for 1
+files/00041-Alloys 2.pdz: b'\x07'
+files/00088-Spectrometer Mode.pdz: b'\x07'
+a[445] and b[463] for 3
+files/00041-Alloys 2.pdz: b'D\x00\x08'
+files/00088-Spectrometer Mode.pdz: b'D\x00\x08'
+a[453] and b[471] for 5
+files/00041-Alloys 2.pdz: b'\x00\x00\x00S\x00'
+files/00088-Spectrometer Mode.pdz: b'\x00\x00\x00S\x00'
+a[458] and b[482] for 2
+files/00041-Alloys 2.pdz: b't\x00'
+files/00088-Spectrometer Mode.pdz: b't\x00'
+a[469] and b[485] for 3
+files/00041-Alloys 2.pdz: b'\x00o\x00'
+files/00088-Spectrometer Mode.pdz: b'\x00o\x00'
+a[500] and b[500] for 0
+files/00041-Alloys 2.pdz: b''
+files/00088-Spectrometer Mode.pdz: b''
+files/00041-Alloys 2.pdz -- files/00142-Shavings and Turnings 2.pdz
+[Match(a=0, b=0, size=246),
+ Match(a=247, b=247, size=7),
+ Match(a=256, b=273, size=1),
+ Match(a=259, b=287, size=1),
+ Match(a=260, b=342, size=6),
+ Match(a=307, b=353, size=3),
+ Match(a=335, b=359, size=11),
+ Match(a=353, b=377, size=13),
+ Match(a=369, b=393, size=1),
+ Match(a=373, b=397, size=1),
+ Match(a=377, b=398, size=1),
+ Match(a=381, b=405, size=29),
+ Match(a=411, b=435, size=5),
+ Match(a=418, b=442, size=4),
+ Match(a=427, b=451, size=1),
+ Match(a=444, b=468, size=4),
+ Match(a=449, b=473, size=27),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 246
+files/00041-Alloys 2.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+a[247] and b[247] for 7
+files/00041-Alloys 2.pdz: b'\x00\x00\x00\x02\x00\x00\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x00\x00\x00\x02\x00\x00\x00'
+a[256] and b[273] for 1
+files/00041-Alloys 2.pdz: b'C'
+files/00142-Shavings and Turnings 2.pdz: b'C'
+a[259] and b[287] for 1
+files/00041-Alloys 2.pdz: b'\xe7'
+files/00142-Shavings and Turnings 2.pdz: b'\xe7'
+a[260] and b[342] for 6
+files/00041-Alloys 2.pdz: b'2\x00\x00\x00\x00\x00'
+files/00142-Shavings and Turnings 2.pdz: b'2\x00\x00\x00\x00\x00'
+a[307] and b[353] for 3
+files/00041-Alloys 2.pdz: b'\x00s\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x00s\x00'
+a[335] and b[359] for 11
+files/00041-Alloys 2.pdz: b'\x00\x03\x00\x90 \x00\x00\x00\x00\x00\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x00\x03\x00\x90 \x00\x00\x00\x00\x00\x00'
+a[353] and b[377] for 13
+files/00041-Alloys 2.pdz: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0@'
+files/00142-Shavings and Turnings 2.pdz: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0@'
+a[369] and b[393] for 1
+files/00041-Alloys 2.pdz: b'@'
+files/00142-Shavings and Turnings 2.pdz: b'@'
+a[373] and b[397] for 1
+files/00041-Alloys 2.pdz: b'>'
+files/00142-Shavings and Turnings 2.pdz: b'>'
+a[377] and b[398] for 1
+files/00041-Alloys 2.pdz: b'>'
+files/00142-Shavings and Turnings 2.pdz: b'>'
+a[381] and b[405] for 29
+files/00041-Alloys 2.pdz: b'@\x00\x00 B\x9a\x99\xa1@\x16\x00\x19\x00\r\x00,\x01\x00\x00\x00\x00\x01\x00\x00\x00\xdc\xc1\xcd\xcc'
+files/00142-Shavings and Turnings 2.pdz: b'@\x00\x00 B\x9a\x99\xa1@\x16\x00\x19\x00\r\x00,\x01\x00\x00\x00\x00\x01\x00\x00\x00\xdc\xc1\xcd\xcc'
+a[411] and b[435] for 5
+files/00041-Alloys 2.pdz: b'B%\x01\x00\x00'
+files/00142-Shavings and Turnings 2.pdz: b'B%\x01\x00\x00'
+a[418] and b[442] for 4
+files/00041-Alloys 2.pdz: b'\xa0A\x02\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\xa0A\x02\x00'
+a[427] and b[451] for 1
+files/00041-Alloys 2.pdz: b'\x07'
+files/00142-Shavings and Turnings 2.pdz: b'\x07'
+a[444] and b[468] for 4
+files/00041-Alloys 2.pdz: b'}D\x00\x08'
+files/00142-Shavings and Turnings 2.pdz: b'}D\x00\x08'
+a[449] and b[473] for 27
+files/00041-Alloys 2.pdz: b'\x00\x00\x00\x0e\x00\x00\x00S\x00t\x00d\x00 \x00A\x00l\x00l\x00o\x00y\x00 \x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x00\x00\x00\x0e\x00\x00\x00S\x00t\x00d\x00 \x00A\x00l\x00l\x00o\x00y\x00 \x00'
+a[500] and b[500] for 0
+files/00041-Alloys 2.pdz: b''
+files/00142-Shavings and Turnings 2.pdz: b''
+files/00041-Alloys 2.pdz -- files/00174-GeoExploration.pdz
+[Match(a=0, b=0, size=95),
+ Match(a=95, b=114, size=1),
+ Match(a=96, b=216, size=2),
+ Match(a=98, b=386, size=4),
+ Match(a=109, b=434, size=3),
+ Match(a=143, b=446, size=2),
+ Match(a=158, b=456, size=1),
+ Match(a=201, b=471, size=3),
+ Match(a=243, b=493, size=2),
+ Match(a=273, b=498, size=1),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 95
+files/00041-Alloys 2.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08'
+files/00174-GeoExploration.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08'
+a[95] and b[114] for 1
+files/00041-Alloys 2.pdz: b'\x08'
+files/00174-GeoExploration.pdz: b'\x08'
+a[96] and b[216] for 2
+files/00041-Alloys 2.pdz: b'\x07\x00'
+files/00174-GeoExploration.pdz: b'\x07\x00'
+a[98] and b[386] for 4
+files/00041-Alloys 2.pdz: b'\x00\x00M\x00'
+files/00174-GeoExploration.pdz: b'\x00\x00M\x00'
+a[109] and b[434] for 3
+files/00041-Alloys 2.pdz: b'\x00l\x00'
+files/00174-GeoExploration.pdz: b'\x00l\x00'
+a[143] and b[446] for 2
+files/00041-Alloys 2.pdz: b'\x00\x02'
+files/00174-GeoExploration.pdz: b'\x00\x02'
+a[158] and b[456] for 1
+files/00041-Alloys 2.pdz: b'9'
+files/00174-GeoExploration.pdz: b'9'
+a[201] and b[471] for 3
+files/00041-Alloys 2.pdz: b'\x00\x06\x00'
+files/00174-GeoExploration.pdz: b'\x00\x06\x00'
+a[243] and b[493] for 2
+files/00041-Alloys 2.pdz: b'\x00\x02'
+files/00174-GeoExploration.pdz: b'\x00\x02'
+a[273] and b[498] for 1
+files/00041-Alloys 2.pdz: b'B'
+files/00174-GeoExploration.pdz: b'B'
+a[500] and b[500] for 0
+files/00041-Alloys 2.pdz: b''
+files/00174-GeoExploration.pdz: b''
+files/00041-Alloys 2.pdz -- files/00206-GLASSMAJORS.pdz
+[Match(a=0, b=0, size=128),
+ Match(a=132, b=128, size=2),
+ Match(a=135, b=135, size=5),
+ Match(a=140, b=166, size=2),
+ Match(a=142, b=260, size=2),
+ Match(a=158, b=279, size=1),
+ Match(a=159, b=335, size=3),
+ Match(a=194, b=371, size=1),
+ Match(a=279, b=379, size=1),
+ Match(a=368, b=380, size=1),
+ Match(a=386, b=386, size=2),
+ Match(a=388, b=416, size=1),
+ Match(a=389, b=443, size=1),
+ Match(a=444, b=444, size=4),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 128
+files/00041-Alloys 2.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x00'
+files/00206-GLASSMAJORS.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x00'
+a[132] and b[128] for 2
+files/00041-Alloys 2.pdz: b'4\x00'
+files/00206-GLASSMAJORS.pdz: b'4\x00'
+a[135] and b[135] for 5
+files/00041-Alloys 2.pdz: b'\x00.\x002\x00'
+files/00206-GLASSMAJORS.pdz: b'\x00.\x002\x00'
+a[140] and b[166] for 2
+files/00041-Alloys 2.pdz: b'6\x00'
+files/00206-GLASSMAJORS.pdz: b'6\x00'
+a[142] and b[260] for 2
+files/00041-Alloys 2.pdz: b'7\x00'
+files/00206-GLASSMAJORS.pdz: b'7\x00'
+a[158] and b[279] for 1
+files/00041-Alloys 2.pdz: b'9'
+files/00206-GLASSMAJORS.pdz: b'9'
+a[159] and b[335] for 3
+files/00041-Alloys 2.pdz: b'\x00\x03\x00'
+files/00206-GLASSMAJORS.pdz: b'\x00\x03\x00'
+a[194] and b[371] for 1
+files/00041-Alloys 2.pdz: b'9'
+files/00206-GLASSMAJORS.pdz: b'9'
+a[279] and b[379] for 1
+files/00041-Alloys 2.pdz: b'n'
+files/00206-GLASSMAJORS.pdz: b'n'
+a[368] and b[380] for 1
+files/00041-Alloys 2.pdz: b'\x91'
+files/00206-GLASSMAJORS.pdz: b'\x91'
+a[386] and b[386] for 2
+files/00041-Alloys 2.pdz: b'\x9a\x99'
+files/00206-GLASSMAJORS.pdz: b'\x9a\x99'
+a[388] and b[416] for 1
+files/00041-Alloys 2.pdz: b'\xa1'
+files/00206-GLASSMAJORS.pdz: b'\xa1'
+a[389] and b[443] for 1
+files/00041-Alloys 2.pdz: b'@'
+files/00206-GLASSMAJORS.pdz: b'@'
+a[444] and b[444] for 4
+files/00041-Alloys 2.pdz: b'}D\x00\x08'
+files/00206-GLASSMAJORS.pdz: b'}D\x00\x08'
+a[500] and b[500] for 0
+files/00041-Alloys 2.pdz: b''
+files/00206-GLASSMAJORS.pdz: b''
+files/00047-Spectrum Only.pdz -- files/00088-Spectrometer Mode.pdz
+[Match(a=0, b=0, size=94),
+ Match(a=95, b=95, size=151),
+ Match(a=247, b=247, size=7),
+ Match(a=256, b=271, size=1),
+ Match(a=258, b=272, size=1),
+ Match(a=274, b=354, size=1),
+ Match(a=280, b=386, size=1),
+ Match(a=283, b=394, size=1),
+ Match(a=288, b=395, size=1),
+ Match(a=290, b=400, size=3),
+ Match(a=399, b=407, size=19),
+ Match(a=419, b=427, size=7),
+ Match(a=427, b=466, size=1),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 94
+files/00047-Spectrum Only.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00'
+files/00088-Spectrometer Mode.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00'
+a[95] and b[95] for 151
+files/00047-Spectrum Only.pdz: b'\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+files/00088-Spectrometer Mode.pdz: b'\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+a[247] and b[247] for 7
+files/00047-Spectrum Only.pdz: b'\x00\x00\x00\x01\x00\x00\x00'
+files/00088-Spectrometer Mode.pdz: b'\x00\x00\x00\x01\x00\x00\x00'
+a[256] and b[271] for 1
+files/00047-Spectrum Only.pdz: b'/'
+files/00088-Spectrometer Mode.pdz: b'/'
+a[258] and b[272] for 1
+files/00047-Spectrum Only.pdz: b'\xe2'
+files/00088-Spectrometer Mode.pdz: b'\xe2'
+a[274] and b[354] for 1
+files/00047-Spectrum Only.pdz: b'\x03'
+files/00088-Spectrometer Mode.pdz: b'\x03'
+a[280] and b[386] for 1
+files/00047-Spectrum Only.pdz: b'\xdf'
+files/00088-Spectrometer Mode.pdz: b'\xdf'
+a[283] and b[394] for 1
+files/00047-Spectrum Only.pdz: b'v'
+files/00088-Spectrometer Mode.pdz: b'v'
+a[288] and b[395] for 1
+files/00047-Spectrum Only.pdz: b'>'
+files/00088-Spectrometer Mode.pdz: b'>'
+a[290] and b[400] for 3
+files/00047-Spectrum Only.pdz: b'\x00\x00p'
+files/00088-Spectrometer Mode.pdz: b'\x00\x00p'
+a[399] and b[407] for 19
+files/00047-Spectrum Only.pdz: b'A\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\xd8\xc1'
+files/00088-Spectrometer Mode.pdz: b'A\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\xd8\xc1'
+a[419] and b[427] for 7
+files/00047-Spectrum Only.pdz: b'\x99\xc9B%\x01\x00\x00'
+files/00088-Spectrometer Mode.pdz: b'\x99\xc9B%\x01\x00\x00'
+a[427] and b[466] for 1
+files/00047-Spectrum Only.pdz: b'&'
+files/00088-Spectrometer Mode.pdz: b'&'
+a[500] and b[500] for 0
+files/00047-Spectrum Only.pdz: b''
+files/00088-Spectrometer Mode.pdz: b''
+files/00047-Spectrum Only.pdz -- files/00142-Shavings and Turnings 2.pdz
+[Match(a=0, b=0, size=246),
+ Match(a=250, b=421, size=4),
+ Match(a=396, b=433, size=1),
+ Match(a=421, b=435, size=5),
+ Match(a=428, b=442, size=4),
+ Match(a=434, b=449, size=1),
+ Match(a=435, b=467, size=1),
+ Match(a=454, b=468, size=4),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 246
+files/00047-Spectrum Only.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x003\x00.\x004\x008\x00.\x002\x006\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+a[250] and b[421] for 4
+files/00047-Spectrum Only.pdz: b'\x01\x00\x00\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x01\x00\x00\x00'
+a[396] and b[433] for 1
+files/00047-Spectrum Only.pdz: b'\xcc'
+files/00142-Shavings and Turnings 2.pdz: b'\xcc'
+a[421] and b[435] for 5
+files/00047-Spectrum Only.pdz: b'B%\x01\x00\x00'
+files/00142-Shavings and Turnings 2.pdz: b'B%\x01\x00\x00'
+a[428] and b[442] for 4
+files/00047-Spectrum Only.pdz: b'\xa0A\x02\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\xa0A\x02\x00'
+a[434] and b[449] for 1
+files/00047-Spectrum Only.pdz: b'>'
+files/00142-Shavings and Turnings 2.pdz: b'>'
+a[435] and b[467] for 1
+files/00047-Spectrum Only.pdz: b'?'
+files/00142-Shavings and Turnings 2.pdz: b'?'
+a[454] and b[468] for 4
+files/00047-Spectrum Only.pdz: b'}D\x00\x08'
+files/00142-Shavings and Turnings 2.pdz: b'}D\x00\x08'
+a[500] and b[500] for 0
+files/00047-Spectrum Only.pdz: b''
+files/00142-Shavings and Turnings 2.pdz: b''
+files/00047-Spectrum Only.pdz -- files/00174-GeoExploration.pdz
+[Match(a=0, b=0, size=95),
+ Match(a=95, b=114, size=1),
+ Match(a=96, b=216, size=2),
+ Match(a=98, b=386, size=4),
+ Match(a=109, b=434, size=3),
+ Match(a=143, b=446, size=2),
+ Match(a=158, b=456, size=1),
+ Match(a=201, b=471, size=3),
+ Match(a=243, b=493, size=2),
+ Match(a=273, b=498, size=1),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 95
+files/00047-Spectrum Only.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08'
+files/00174-GeoExploration.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08'
+a[95] and b[114] for 1
+files/00047-Spectrum Only.pdz: b'\x08'
+files/00174-GeoExploration.pdz: b'\x08'
+a[96] and b[216] for 2
+files/00047-Spectrum Only.pdz: b'\x07\x00'
+files/00174-GeoExploration.pdz: b'\x07\x00'
+a[98] and b[386] for 4
+files/00047-Spectrum Only.pdz: b'\x00\x00M\x00'
+files/00174-GeoExploration.pdz: b'\x00\x00M\x00'
+a[109] and b[434] for 3
+files/00047-Spectrum Only.pdz: b'\x00l\x00'
+files/00174-GeoExploration.pdz: b'\x00l\x00'
+a[143] and b[446] for 2
+files/00047-Spectrum Only.pdz: b'\x00\x02'
+files/00174-GeoExploration.pdz: b'\x00\x02'
+a[158] and b[456] for 1
+files/00047-Spectrum Only.pdz: b'9'
+files/00174-GeoExploration.pdz: b'9'
+a[201] and b[471] for 3
+files/00047-Spectrum Only.pdz: b'\x00\x06\x00'
+files/00174-GeoExploration.pdz: b'\x00\x06\x00'
+a[243] and b[493] for 2
+files/00047-Spectrum Only.pdz: b'\x00\x02'
+files/00174-GeoExploration.pdz: b'\x00\x02'
+a[273] and b[498] for 1
+files/00047-Spectrum Only.pdz: b'B'
+files/00174-GeoExploration.pdz: b'B'
+a[500] and b[500] for 0
+files/00047-Spectrum Only.pdz: b''
+files/00174-GeoExploration.pdz: b''
+files/00047-Spectrum Only.pdz -- files/00206-GLASSMAJORS.pdz
+[Match(a=0, b=0, size=128),
+ Match(a=132, b=128, size=2),
+ Match(a=135, b=135, size=5),
+ Match(a=140, b=166, size=2),
+ Match(a=142, b=260, size=2),
+ Match(a=158, b=279, size=1),
+ Match(a=159, b=335, size=3),
+ Match(a=194, b=371, size=1),
+ Match(a=281, b=377, size=1),
+ Match(a=289, b=381, size=4),
+ Match(a=399, b=389, size=19),
+ Match(a=418, b=409, size=1),
+ Match(a=421, b=411, size=5),
+ Match(a=429, b=419, size=3),
+ Match(a=434, b=425, size=1),
+ Match(a=437, b=427, size=1),
+ Match(a=454, b=444, size=4),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 128
+files/00047-Spectrum Only.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x00'
+files/00206-GLASSMAJORS.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x00'
+a[132] and b[128] for 2
+files/00047-Spectrum Only.pdz: b'4\x00'
+files/00206-GLASSMAJORS.pdz: b'4\x00'
+a[135] and b[135] for 5
+files/00047-Spectrum Only.pdz: b'\x00.\x002\x00'
+files/00206-GLASSMAJORS.pdz: b'\x00.\x002\x00'
+a[140] and b[166] for 2
+files/00047-Spectrum Only.pdz: b'6\x00'
+files/00206-GLASSMAJORS.pdz: b'6\x00'
+a[142] and b[260] for 2
+files/00047-Spectrum Only.pdz: b'7\x00'
+files/00206-GLASSMAJORS.pdz: b'7\x00'
+a[158] and b[279] for 1
+files/00047-Spectrum Only.pdz: b'9'
+files/00206-GLASSMAJORS.pdz: b'9'
+a[159] and b[335] for 3
+files/00047-Spectrum Only.pdz: b'\x00\x03\x00'
+files/00206-GLASSMAJORS.pdz: b'\x00\x03\x00'
+a[194] and b[371] for 1
+files/00047-Spectrum Only.pdz: b'9'
+files/00206-GLASSMAJORS.pdz: b'9'
+a[281] and b[377] for 1
+files/00047-Spectrum Only.pdz: b'@'
+files/00206-GLASSMAJORS.pdz: b'@'
+a[289] and b[381] for 4
+files/00047-Spectrum Only.pdz: b'B\x00\x00p'
+files/00206-GLASSMAJORS.pdz: b'B\x00\x00p'
+a[399] and b[389] for 19
+files/00047-Spectrum Only.pdz: b'A\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\xd8\xc1'
+files/00206-GLASSMAJORS.pdz: b'A\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\xd8\xc1'
+a[418] and b[409] for 1
+files/00047-Spectrum Only.pdz: b'\x99'
+files/00206-GLASSMAJORS.pdz: b'\x99'
+a[421] and b[411] for 5
+files/00047-Spectrum Only.pdz: b'B%\x01\x00\x00'
+files/00206-GLASSMAJORS.pdz: b'B%\x01\x00\x00'
+a[429] and b[419] for 3
+files/00047-Spectrum Only.pdz: b'A\x02\x00'
+files/00206-GLASSMAJORS.pdz: b'A\x02\x00'
+a[434] and b[425] for 1
+files/00047-Spectrum Only.pdz: b'>'
+files/00206-GLASSMAJORS.pdz: b'>'
+a[437] and b[427] for 1
+files/00047-Spectrum Only.pdz: b'\x07'
+files/00206-GLASSMAJORS.pdz: b'\x07'
+a[454] and b[444] for 4
+files/00047-Spectrum Only.pdz: b'}D\x00\x08'
+files/00206-GLASSMAJORS.pdz: b'}D\x00\x08'
+a[500] and b[500] for 0
+files/00047-Spectrum Only.pdz: b''
+files/00206-GLASSMAJORS.pdz: b''
+files/00088-Spectrometer Mode.pdz -- files/00142-Shavings and Turnings 2.pdz
+[Match(a=0, b=0, size=94),
+ Match(a=94, b=160, size=1),
+ Match(a=96, b=216, size=2),
+ Match(a=100, b=403, size=1),
+ Match(a=426, b=410, size=2),
+ Match(a=429, b=435, size=5),
+ Match(a=436, b=442, size=4),
+ Match(a=444, b=450, size=2),
+ Match(a=447, b=453, size=3),
+ Match(a=463, b=469, size=3),
+ Match(a=471, b=477, size=5),
+ Match(a=482, b=482, size=2),
+ Match(a=485, b=493, size=3),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 94
+files/00088-Spectrometer Mode.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00'
+a[94] and b[160] for 1
+files/00088-Spectrometer Mode.pdz: b'\x03'
+files/00142-Shavings and Turnings 2.pdz: b'\x03'
+a[96] and b[216] for 2
+files/00088-Spectrometer Mode.pdz: b'\x07\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x07\x00'
+a[100] and b[403] for 1
+files/00088-Spectrometer Mode.pdz: b'M'
+files/00142-Shavings and Turnings 2.pdz: b'M'
+a[426] and b[410] for 2
+files/00088-Spectrometer Mode.pdz: b'\x9a\x99'
+files/00142-Shavings and Turnings 2.pdz: b'\x9a\x99'
+a[429] and b[435] for 5
+files/00088-Spectrometer Mode.pdz: b'B%\x01\x00\x00'
+files/00142-Shavings and Turnings 2.pdz: b'B%\x01\x00\x00'
+a[436] and b[442] for 4
+files/00088-Spectrometer Mode.pdz: b'\xa0A\x02\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\xa0A\x02\x00'
+a[444] and b[450] for 2
+files/00088-Spectrometer Mode.pdz: b'\xe2\x07'
+files/00142-Shavings and Turnings 2.pdz: b'\xe2\x07'
+a[447] and b[453] for 3
+files/00088-Spectrometer Mode.pdz: b'\x00\x03\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x00\x03\x00'
+a[463] and b[469] for 3
+files/00088-Spectrometer Mode.pdz: b'D\x00\x08'
+files/00142-Shavings and Turnings 2.pdz: b'D\x00\x08'
+a[471] and b[477] for 5
+files/00088-Spectrometer Mode.pdz: b'\x00\x00\x00S\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x00\x00\x00S\x00'
+a[482] and b[482] for 2
+files/00088-Spectrometer Mode.pdz: b't\x00'
+files/00142-Shavings and Turnings 2.pdz: b't\x00'
+a[485] and b[493] for 3
+files/00088-Spectrometer Mode.pdz: b'\x00o\x00'
+files/00142-Shavings and Turnings 2.pdz: b'\x00o\x00'
+a[500] and b[500] for 0
+files/00088-Spectrometer Mode.pdz: b''
+files/00142-Shavings and Turnings 2.pdz: b''
+files/00088-Spectrometer Mode.pdz -- files/00174-GeoExploration.pdz
+[Match(a=0, b=0, size=94),
+ Match(a=94, b=160, size=1),
+ Match(a=95, b=230, size=1),
+ Match(a=97, b=385, size=5),
+ Match(a=109, b=434, size=3),
+ Match(a=143, b=446, size=2),
+ Match(a=158, b=456, size=1),
+ Match(a=201, b=471, size=3),
+ Match(a=243, b=493, size=2),
+ Match(a=429, b=498, size=1),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 94
+files/00088-Spectrometer Mode.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00'
+files/00174-GeoExploration.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00'
+a[94] and b[160] for 1
+files/00088-Spectrometer Mode.pdz: b'\x03'
+files/00174-GeoExploration.pdz: b'\x03'
+a[95] and b[230] for 1
+files/00088-Spectrometer Mode.pdz: b'\x08'
+files/00174-GeoExploration.pdz: b'\x08'
+a[97] and b[385] for 5
+files/00088-Spectrometer Mode.pdz: b'\x00\x00\x00M\x00'
+files/00174-GeoExploration.pdz: b'\x00\x00\x00M\x00'
+a[109] and b[434] for 3
+files/00088-Spectrometer Mode.pdz: b'\x00l\x00'
+files/00174-GeoExploration.pdz: b'\x00l\x00'
+a[143] and b[446] for 2
+files/00088-Spectrometer Mode.pdz: b'\x00\x02'
+files/00174-GeoExploration.pdz: b'\x00\x02'
+a[158] and b[456] for 1
+files/00088-Spectrometer Mode.pdz: b'9'
+files/00174-GeoExploration.pdz: b'9'
+a[201] and b[471] for 3
+files/00088-Spectrometer Mode.pdz: b'\x00\x06\x00'
+files/00174-GeoExploration.pdz: b'\x00\x06\x00'
+a[243] and b[493] for 2
+files/00088-Spectrometer Mode.pdz: b'\x00\x02'
+files/00174-GeoExploration.pdz: b'\x00\x02'
+a[429] and b[498] for 1
+files/00088-Spectrometer Mode.pdz: b'B'
+files/00174-GeoExploration.pdz: b'B'
+a[500] and b[500] for 0
+files/00088-Spectrometer Mode.pdz: b''
+files/00174-GeoExploration.pdz: b''
+files/00088-Spectrometer Mode.pdz -- files/00206-GLASSMAJORS.pdz
+[Match(a=0, b=0, size=94),
+ Match(a=94, b=160, size=1),
+ Match(a=96, b=216, size=2),
+ Match(a=99, b=307, size=3),
+ Match(a=110, b=351, size=1),
+ Match(a=142, b=352, size=2),
+ Match(a=158, b=371, size=1),
+ Match(a=255, b=386, size=1),
+ Match(a=407, b=389, size=21),
+ Match(a=429, b=411, size=5),
+ Match(a=437, b=419, size=3),
+ Match(a=443, b=424, size=1),
+ Match(a=444, b=426, size=2),
+ Match(a=451, b=433, size=3),
+ Match(a=461, b=443, size=1),
+ Match(a=463, b=445, size=3),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 94
+files/00088-Spectrometer Mode.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00'
+files/00206-GLASSMAJORS.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00'
+a[94] and b[160] for 1
+files/00088-Spectrometer Mode.pdz: b'\x03'
+files/00206-GLASSMAJORS.pdz: b'\x03'
+a[96] and b[216] for 2
+files/00088-Spectrometer Mode.pdz: b'\x07\x00'
+files/00206-GLASSMAJORS.pdz: b'\x07\x00'
+a[99] and b[307] for 3
+files/00088-Spectrometer Mode.pdz: b'\x00M\x00'
+files/00206-GLASSMAJORS.pdz: b'\x00M\x00'
+a[110] and b[351] for 1
+files/00088-Spectrometer Mode.pdz: b'l'
+files/00206-GLASSMAJORS.pdz: b'l'
+a[142] and b[352] for 2
+files/00088-Spectrometer Mode.pdz: b'7\x00'
+files/00206-GLASSMAJORS.pdz: b'7\x00'
+a[158] and b[371] for 1
+files/00088-Spectrometer Mode.pdz: b'9'
+files/00206-GLASSMAJORS.pdz: b'9'
+a[255] and b[386] for 1
+files/00088-Spectrometer Mode.pdz: b'\x9a'
+files/00206-GLASSMAJORS.pdz: b'\x9a'
+a[407] and b[389] for 21
+files/00088-Spectrometer Mode.pdz: b'A\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\xd8\xc1\x9a\x99'
+files/00206-GLASSMAJORS.pdz: b'A\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\xd8\xc1\x9a\x99'
+a[429] and b[411] for 5
+files/00088-Spectrometer Mode.pdz: b'B%\x01\x00\x00'
+files/00206-GLASSMAJORS.pdz: b'B%\x01\x00\x00'
+a[437] and b[419] for 3
+files/00088-Spectrometer Mode.pdz: b'A\x02\x00'
+files/00206-GLASSMAJORS.pdz: b'A\x02\x00'
+a[443] and b[424] for 1
+files/00088-Spectrometer Mode.pdz: b'\xbe'
+files/00206-GLASSMAJORS.pdz: b'\xbe'
+a[444] and b[426] for 2
+files/00088-Spectrometer Mode.pdz: b'\xe2\x07'
+files/00206-GLASSMAJORS.pdz: b'\xe2\x07'
+a[451] and b[433] for 3
+files/00088-Spectrometer Mode.pdz: b'\x00\x0c\x00'
+files/00206-GLASSMAJORS.pdz: b'\x00\x0c\x00'
+a[461] and b[443] for 1
+files/00088-Spectrometer Mode.pdz: b'@'
+files/00206-GLASSMAJORS.pdz: b'@'
+a[463] and b[445] for 3
+files/00088-Spectrometer Mode.pdz: b'D\x00\x08'
+files/00206-GLASSMAJORS.pdz: b'D\x00\x08'
+a[500] and b[500] for 0
+files/00088-Spectrometer Mode.pdz: b''
+files/00206-GLASSMAJORS.pdz: b''
+files/00142-Shavings and Turnings 2.pdz -- files/00174-GeoExploration.pdz
+[Match(a=0, b=0, size=95),
+ Match(a=95, b=114, size=1),
+ Match(a=96, b=216, size=2),
+ Match(a=98, b=386, size=4),
+ Match(a=109, b=434, size=3),
+ Match(a=143, b=446, size=2),
+ Match(a=158, b=456, size=1),
+ Match(a=201, b=471, size=3),
+ Match(a=243, b=493, size=2),
+ Match(a=289, b=498, size=1),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 95
+files/00142-Shavings and Turnings 2.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08'
+files/00174-GeoExploration.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08'
+a[95] and b[114] for 1
+files/00142-Shavings and Turnings 2.pdz: b'\x08'
+files/00174-GeoExploration.pdz: b'\x08'
+a[96] and b[216] for 2
+files/00142-Shavings and Turnings 2.pdz: b'\x07\x00'
+files/00174-GeoExploration.pdz: b'\x07\x00'
+a[98] and b[386] for 4
+files/00142-Shavings and Turnings 2.pdz: b'\x00\x00M\x00'
+files/00174-GeoExploration.pdz: b'\x00\x00M\x00'
+a[109] and b[434] for 3
+files/00142-Shavings and Turnings 2.pdz: b'\x00l\x00'
+files/00174-GeoExploration.pdz: b'\x00l\x00'
+a[143] and b[446] for 2
+files/00142-Shavings and Turnings 2.pdz: b'\x00\x02'
+files/00174-GeoExploration.pdz: b'\x00\x02'
+a[158] and b[456] for 1
+files/00142-Shavings and Turnings 2.pdz: b'9'
+files/00174-GeoExploration.pdz: b'9'
+a[201] and b[471] for 3
+files/00142-Shavings and Turnings 2.pdz: b'\x00\x06\x00'
+files/00174-GeoExploration.pdz: b'\x00\x06\x00'
+a[243] and b[493] for 2
+files/00142-Shavings and Turnings 2.pdz: b'\x00\x02'
+files/00174-GeoExploration.pdz: b'\x00\x02'
+a[289] and b[498] for 1
+files/00142-Shavings and Turnings 2.pdz: b'B'
+files/00174-GeoExploration.pdz: b'B'
+a[500] and b[500] for 0
+files/00142-Shavings and Turnings 2.pdz: b''
+files/00174-GeoExploration.pdz: b''
+files/00142-Shavings and Turnings 2.pdz -- files/00206-GLASSMAJORS.pdz
+[Match(a=0, b=0, size=128),
+ Match(a=132, b=128, size=2),
+ Match(a=135, b=135, size=5),
+ Match(a=140, b=166, size=2),
+ Match(a=142, b=260, size=2),
+ Match(a=158, b=279, size=1),
+ Match(a=159, b=335, size=3),
+ Match(a=194, b=371, size=1),
+ Match(a=246, b=379, size=1),
+ Match(a=410, b=386, size=2),
+ Match(a=412, b=416, size=1),
+ Match(a=441, b=423, size=1),
+ Match(a=449, b=425, size=3),
+ Match(a=459, b=431, size=3),
+ Match(a=468, b=444, size=4),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 128
+files/00142-Shavings and Turnings 2.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x00'
+files/00206-GLASSMAJORS.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08\x08\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x00'
+a[132] and b[128] for 2
+files/00142-Shavings and Turnings 2.pdz: b'4\x00'
+files/00206-GLASSMAJORS.pdz: b'4\x00'
+a[135] and b[135] for 5
+files/00142-Shavings and Turnings 2.pdz: b'\x00.\x002\x00'
+files/00206-GLASSMAJORS.pdz: b'\x00.\x002\x00'
+a[140] and b[166] for 2
+files/00142-Shavings and Turnings 2.pdz: b'6\x00'
+files/00206-GLASSMAJORS.pdz: b'6\x00'
+a[142] and b[260] for 2
+files/00142-Shavings and Turnings 2.pdz: b'7\x00'
+files/00206-GLASSMAJORS.pdz: b'7\x00'
+a[158] and b[279] for 1
+files/00142-Shavings and Turnings 2.pdz: b'9'
+files/00206-GLASSMAJORS.pdz: b'9'
+a[159] and b[335] for 3
+files/00142-Shavings and Turnings 2.pdz: b'\x00\x03\x00'
+files/00206-GLASSMAJORS.pdz: b'\x00\x03\x00'
+a[194] and b[371] for 1
+files/00142-Shavings and Turnings 2.pdz: b'9'
+files/00206-GLASSMAJORS.pdz: b'9'
+a[246] and b[379] for 1
+files/00142-Shavings and Turnings 2.pdz: b'n'
+files/00206-GLASSMAJORS.pdz: b'n'
+a[410] and b[386] for 2
+files/00142-Shavings and Turnings 2.pdz: b'\x9a\x99'
+files/00206-GLASSMAJORS.pdz: b'\x9a\x99'
+a[412] and b[416] for 1
+files/00142-Shavings and Turnings 2.pdz: b'\xa1'
+files/00206-GLASSMAJORS.pdz: b'\xa1'
+a[441] and b[423] for 1
+files/00142-Shavings and Turnings 2.pdz: b'\x03'
+files/00206-GLASSMAJORS.pdz: b'\x03'
+a[449] and b[425] for 3
+files/00142-Shavings and Turnings 2.pdz: b'>\xe2\x07'
+files/00206-GLASSMAJORS.pdz: b'>\xe2\x07'
+a[459] and b[431] for 3
+files/00142-Shavings and Turnings 2.pdz: b'\x00\x18\x00'
+files/00206-GLASSMAJORS.pdz: b'\x00\x18\x00'
+a[468] and b[444] for 4
+files/00142-Shavings and Turnings 2.pdz: b'}D\x00\x08'
+files/00206-GLASSMAJORS.pdz: b'}D\x00\x08'
+a[500] and b[500] for 0
+files/00142-Shavings and Turnings 2.pdz: b''
+files/00206-GLASSMAJORS.pdz: b''
+files/00174-GeoExploration.pdz -- files/00206-GLASSMAJORS.pdz
+[Match(a=0, b=0, size=95),
+ Match(a=96, b=96, size=150),
+ Match(a=246, b=278, size=1),
+ Match(a=294, b=286, size=1),
+ Match(a=295, b=295, size=5),
+ Match(a=300, b=332, size=2),
+ Match(a=303, b=481, size=3),
+ Match(a=500, b=500, size=0)]
+a[0] and b[0] for 95
+files/00174-GeoExploration.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08'
+files/00206-GLASSMAJORS.pdz: b'\x19\x00\x0e\x00\x00\x00p\x00d\x00z\x002\x005\x00\x01\x00\x00\x00\x01\x00\xda\x00\x00\x00\x08\x00\x00\x009\x000\x000\x00F\x004\x005\x000\x003\x00\x08\x00\x00\x00S\x00K\x005\x00-\x004\x005\x000\x003\x00---A}\x00\x03\x00\x00\x00S\x00D\x00D\x00\x04\x00\x00\x00R\x00x\x00B\x00x\x00\x08'
+a[96] and b[96] for 150
+files/00174-GeoExploration.pdz: b'\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x004\x00.\x005\x004\x00.\x002\x009\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+files/00206-GLASSMAJORS.pdz: b'\x07\x00\x00\x00M\x00o\x00v\x00a\x00b\x00l\x00e\x00\x08\x00\x00\x00\x01\x00\n\x00\x00\x002\x00.\x004\x00.\x005\x004\x00.\x002\x009\x007\x00\x02\x00\x05\x00\x00\x001\x003\x00.\x000\x009\x00\x03\x00\x04\x00\x00\x006\x00.\x000\x003\x00\x04\x00\x04\x00\x00\x003\x00.\x000\x003\x00\x05\x00\x04\x00\x00\x009\x00.\x002\x00F\x00\x06\x00\x04\x00\x00\x001\x00.\x000\x002\x00\x07\x00\x04\x00\x00\x001\x00.\x001\x001\x00\x08\x00\x04\x00\x00\x001\x00.\x000\x001\x00\x02\x00'
+a[246] and b[278] for 1
+files/00174-GeoExploration.pdz: b'\\'
+files/00206-GLASSMAJORS.pdz: b'\\'
+a[294] and b[286] for 1
+files/00174-GeoExploration.pdz: b'\x0e'
+files/00206-GLASSMAJORS.pdz: b'\x0e'
+a[295] and b[295] for 5
+files/00174-GeoExploration.pdz: b'\x00\x00\x00G\x00'
+files/00206-GLASSMAJORS.pdz: b'\x00\x00\x00G\x00'
+a[300] and b[332] for 2
+files/00174-GeoExploration.pdz: b'e\x00'
+files/00206-GLASSMAJORS.pdz: b'e\x00'
+a[303] and b[481] for 3
+files/00174-GeoExploration.pdz: b'\x00E\x00'
+files/00206-GLASSMAJORS.pdz: b'\x00E\x00'
+a[500] and b[500] for 0
+files/00174-GeoExploration.pdz: b''
+files/00206-GLASSMAJORS.pdz: b''

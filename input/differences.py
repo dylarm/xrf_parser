@@ -6,13 +6,11 @@ Parse through each PDZ file, one byte at a time, and show when differences occur
 
 from difflib import SequenceMatcher
 from pathlib import Path
+from pprint import pprint
 from typing import Dict, Iterable, List, Union
 
-TEST = "GLASSMAJORS"
+TEST = ["GLASSMAJORS", "GeoExploration", ""][2]
 
-
-# TEST = "GeoExploration"
-# TEST = ""
 
 def get_file_names(directory: Path) -> Iterable:
     if TEST:
@@ -48,7 +46,7 @@ def get_file_contents(files: Union[Iterable, Path],
 def main():
     directory: Path = Path('.')
     files: Iterable = get_file_names(directory)
-    file_dict: Dict[Path, bytes] = get_file_contents(files, hi=-1)
+    file_dict: Dict[Path, bytes] = get_file_contents(files, hi=500)
     file_list: List[Path] = [p for p in file_dict]
     print(f"Comparing: {file_list}")
     for ind, file1 in enumerate(file_list):
@@ -57,9 +55,11 @@ def main():
                 print(f"{file1.as_posix()} -- {file2.as_posix()}")
                 s = SequenceMatcher(a=file_dict[file1], b=file_dict[file2])
                 matching_blocks = s.get_matching_blocks()
-                print(matching_blocks)
+                pprint(matching_blocks)
                 for a,b,length in matching_blocks:
                     print(f"a[{a}] and b[{b}] for {length}")
+                    print(f"{file1.as_posix()}: {file_dict[file1][a:a+length]}")
+                    print(f"{file2.as_posix()}: {file_dict[file2][b:b+length]}")
 
 
 if __name__ == '__main__':
