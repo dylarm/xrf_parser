@@ -12,7 +12,7 @@ from typing import Dict, Iterable, List, Union
 TEST = ["GLASSMAJORS", "GeoExploration", ""][2]
 
 
-def get_file_names(directory: Path) -> Iterable:
+def _get_file_names(directory: Path) -> Iterable:
     if TEST:
         files = directory.glob(f'files/*{TEST}*.pdz')
     else:
@@ -20,7 +20,7 @@ def get_file_names(directory: Path) -> Iterable:
     return files
 
 
-def get_max_filesize(files: Union[Iterable, Path]) -> int:
+def _get_max_filesize(files: Union[Iterable, Path]) -> int:
     size: int
     if isinstance(files, Path):
         size = files.stat().st_size
@@ -30,13 +30,13 @@ def get_max_filesize(files: Union[Iterable, Path]) -> int:
     return size
 
 
-def get_file_contents(files: Union[Iterable, Path],
-                      lo: int = 0,
-                      hi: int = -1) -> Dict[Path, bytes]:
+def _get_file_contents(files: Union[Iterable, Path],
+                       lo: int = 0,
+                       hi: int = -1) -> Dict[Path, bytes]:
     file_dict: Dict[Path, bytes] = {}
     file_list:List[Path] = list(files)
     if hi == -1:
-        hi = get_max_filesize(file_list)
+        hi = _get_max_filesize(file_list)
     for file in file_list:
         with open(file, 'rb') as f:
             file_dict[file] = f.read()[lo:hi]
@@ -45,8 +45,8 @@ def get_file_contents(files: Union[Iterable, Path],
 
 def main():
     directory: Path = Path('.')
-    files: Iterable = get_file_names(directory)
-    file_dict: Dict[Path, bytes] = get_file_contents(files, hi=500)
+    files: Iterable = _get_file_names(directory)
+    file_dict: Dict[Path, bytes] = _get_file_contents(files, hi=500)
     file_list: List[Path] = [p for p in file_dict]
     print(f"Comparing: {file_list}")
     for ind, file1 in enumerate(file_list):
