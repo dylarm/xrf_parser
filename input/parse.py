@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3.7
 """
 Parse PDZ files, extracting necessary information
 """
@@ -28,7 +28,7 @@ def _process_compound(compound: bytes) -> str:
     # due to the regex used), so we're just interested in the "regular" chars.
     # TODO: fix regex to only return valid chemical values. Right now it is
     #       also returning, e.g., "TaI" and "Te4" instead of "Ta" and "Te".
-    comp = re.findall(r'[A-IK-PR-Z2-9]+', comp_str, flags=re.I)[0]
+    comp = re.findall(r"[A-IK-PR-Z2-9]+", comp_str, flags=re.I)[0]
     return comp
 
 
@@ -43,9 +43,11 @@ def _process_values(values: bytes) -> NamedTuple:
     # TODO: some sort of check if the error is greater than the concentration?
     concentration, verify_conc, error = unpack(FMT_VALUES, values)
     if concentration != verify_conc:
-        raise ValueError(f'Two different concentrations detected: '
-                         f'{concentration} vs {verify_conc}')
-    reading = NamedTuple('reading', [('conc', float), ('err', float)])
+        raise ValueError(
+            f"Two different concentrations detected: "
+            f"{concentration} vs {verify_conc}"
+        )
+    reading = NamedTuple("reading", [("conc", float), ("err", float)])
     return reading(conc=concentration, err=error)
 
 
@@ -74,9 +76,7 @@ def extract_readings(file: bytes) -> Dict[str, Dict[str, float]]:
     """
     packet_data_strs: List[str] = []
     for packet_header in PACKET_BEGIN:
-        re_packet = (packet_header.hex() +
-                     "((.{2}){15,30})" +
-                     PACKET_END.hex())
+        re_packet = packet_header.hex() + "((.{2}){15,30})" + PACKET_END.hex()
         packet_data_strs += re.findall(re_packet, file.hex(), flags=re.DOTALL)
     # The regex returns two matches for every packet: [0] is the packet data,
     # while [1] is the last byte of the data. We don't care about the last byte.
@@ -84,10 +84,10 @@ def extract_readings(file: bytes) -> Dict[str, Dict[str, float]]:
     return packets_to_readings(packet_data_bytes)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     from pathlib import Path
 
-    file = Path('./files/').glob('00174*.pdz').__next__()
-    with file.open('rb') as f:
+    file = Path("./files/").glob("00174*.pdz").__next__()
+    with file.open("rb") as f:
         test_packets = f.read()
     pprint(extract_readings(test_packets))
