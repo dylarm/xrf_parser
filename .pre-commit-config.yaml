@@ -4,3 +4,10 @@ repos:
     hooks:
     - id: black
       language_version: python3.7
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.2.3
+    hooks:
+    - id: flake8
+    - id: debug-statements
+    - id: check-case-conflict
+    - id: check-added-large-files
