@@ -2,7 +2,7 @@
 
 from pathlib import Path
 
-from PyQt5 import uic
+from PyQt5 import uic  # type: ignore
 from PyQt5.QtWidgets import QApplication
 
 root = Path(__file__).parent
