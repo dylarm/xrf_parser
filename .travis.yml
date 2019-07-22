@@ -18,3 +18,15 @@ matrix:
       python: 3.7
       env:
         - TEST_CMD="flake8 ."
+    - name: "differences.py"
+      python: 3.7
+      env:
+        - TEST_CMD="python input/differences.py"
+    - name: "Parse"
+      python: 3.7
+      env:
+        - TEST_CMD="python input/parse.py"
+    - name: "Structures"
+      python: 3.7
+      env:
+        - TEST_CMD="python input/structures.py"
