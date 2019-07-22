@@ -1,0 +1,20 @@
+dist: xenial  # for python >= 3.7
+language: python
+install:
+  - pip install black flak8 mypy mccabe
+script:
+  - $TEST_CMD
+matrix:
+  include:
+    - name: "mypy"
+      python: 3.7
+      env:
+        - TEST_CMD="mypy ."
+    - name: "black"
+      python: 3.7
+      env:
+        - TEST_CMD="black --check --verbose ."
+    - name: "flake8"
+      python: 3.7
+      env:
+        - TEST_CMD="flake8 ."
