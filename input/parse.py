@@ -91,7 +91,7 @@ def extract_readings(file: bytes) -> Dict[str, Dict[str, float]]:
 if __name__ == "__main__":
     from pathlib import Path
 
-    file = Path("./files/").glob("00174*.pdz").__next__()
+    file = Path(f"{Path.cwd()}/input/files/").glob("00174*.pdz").__next__()
     with file.open("rb") as f:
         test_packets = f.read()
     pprint(extract_readings(test_packets))
