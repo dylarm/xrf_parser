@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>452</width>
+    <height>702</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>XRF Parser</string>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="boxFiles">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>431</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Files</string>
+    </property>
+    <widget class="QGroupBox" name="boxInputDir">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>411</width>
+       <height>261</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Input Directory</string>
+     </property>
+     <widget class="QTreeView" name="treeFileDir">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>261</width>
+        <height>231</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="applicationSelect">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>40</y>
+        <width>121</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <item>
+       <property name="text">
+        <string notr="true">Glass Majors</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string notr="true">GeoExploration</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string notr="true">GeoMining</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="applicationLabel">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>20</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&amp;Application:</string>
+      </property>
+      <property name="buddy">
+       <cstring>applicationSelect</cstring>
+      </property>
+     </widget>
+     <widget class="QLabel" name="methodLabel">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>80</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="text">
+       <string>Method:</string>
+      </property>
+      <property name="buddy">
+       <cstring>comboBox</cstring>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>100</y>
+        <width>121</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="boxFilesUsing">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>290</y>
+       <width>411</width>
+       <height>281</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Using</string>
+     </property>
+     <widget class="QListView" name="listFiles">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>61</y>
+        <width>391</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="editTriggers">
+       <set>QAbstractItemView::SelectedClicked</set>
+      </property>
+      <property name="selectionMode">
+       <enum>QAbstractItemView::MultiSelection</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="buttonAll">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>30</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Select All</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="buttonNone">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>30</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Select None</string>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>452</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menuHelp"/>
+  </widget>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonAll</sender>
+   <signal>clicked()</signal>
+   <receiver>listFiles</receiver>
+   <slot>selectAll()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>276</x>
+     <y>369</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>225</x>
+     <y>492</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonNone</sender>
+   <signal>clicked()</signal>
+   <receiver>listFiles</receiver>
+   <slot>clearSelection()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>376</x>
+     <y>369</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>225</x>
+     <y>492</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
