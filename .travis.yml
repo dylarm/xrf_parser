@@ -1,7 +1,7 @@
 dist: xenial  # for python >= 3.7
 language: python
 install:
-  - pip install black flak8 mypy mccabe
+  - pip install black flake8 mypy mccabe
 script:
   - $TEST_CMD
 matrix:
