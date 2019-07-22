@@ -2,8 +2,14 @@ dist: xenial  # for python >= 3.7
 language: python
 install:
   - pip install black flake8 mypy mccabe
+cache: pip
+git:
+  depth: false
 script:
   - $TEST_CMD
+before_install:
+- echo -e "machine github.com\n  login $GITHUB_TOKEN" > ~/.netrc
+- git lfs pull
 matrix:
   include:
     - name: "mypy"
