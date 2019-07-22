@@ -15,6 +15,11 @@ from input.structures import compound_fmt
 # TODO: implement valid PDZ file checking
 
 
+class Reading(NamedTuple):
+    conc: float
+    err: float
+
+
 def _process_compound(compound: bytes) -> str:
     """
     Transform the packet compound into a string
@@ -32,7 +37,7 @@ def _process_compound(compound: bytes) -> str:
     return comp
 
 
-def _process_values(values: bytes) -> NamedTuple:
+def _process_values(values: bytes) -> Reading:
     """
     Transform the packet values into actual numbers
 
@@ -47,8 +52,7 @@ def _process_values(values: bytes) -> NamedTuple:
             f"Two different concentrations detected: "
             f"{concentration} vs {verify_conc}"
         )
-    reading = NamedTuple("reading", [("conc", float), ("err", float)])
-    return reading(conc=concentration, err=error)
+    return Reading(conc=concentration, err=error)
 
 
 def packets_to_readings(packets: List[bytes]) -> Dict[str, Dict[str, float]]:
