@@ -27,12 +27,12 @@ matrix:
     - name: "differences.py"
       python: 3.7
       env:
-        - TEST_CMD="python input/differences.py"
+        - TEST_CMD="python -m input.differences"
     - name: "Parse"
       python: 3.7
       env:
-        - TEST_CMD="python input/parse.py"
+        - TEST_CMD="python -m input.parse"
     - name: "Structures"
       python: 3.7
       env:
-        - TEST_CMD="python input/structures.py"
+        - TEST_CMD="python -m input.structures"

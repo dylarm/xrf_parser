@@ -43,7 +43,7 @@ def _get_file_contents(
 
 
 def main():
-    directory: Path = Path(".")
+    directory: Path = Path("./input")
     files: Iterable = _get_file_names(directory)
     file_dict: Dict[Path, bytes] = _get_file_contents(files, hi=500)
     file_list: List[Path] = [p for p in file_dict]
