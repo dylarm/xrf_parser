@@ -2,6 +2,7 @@ dist: xenial  # for python >= 3.7
 language: python
 install:
   - pip install black flake8 mypy mccabe
+  - pip install -r requirements.txt
 cache: pip
 git:
   depth: false
