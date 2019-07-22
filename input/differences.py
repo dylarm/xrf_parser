@@ -30,7 +30,7 @@ def _get_max_filesize(files: Union[Iterable, Path]) -> int:
 
 
 def _get_file_contents(
-    files: Union[Iterable, Path], lo: int = 0, hi: int = -1
+    files: Iterable[Path], lo: int = 0, hi: int = -1
 ) -> Dict[Path, bytes]:
     file_dict: Dict[Path, bytes] = {}
     file_list: List[Path] = list(files)
