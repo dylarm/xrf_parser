@@ -5,7 +5,7 @@ from pathlib import Path
 from PyQt5 import uic  # type: ignore
 from PyQt5.QtWidgets import QApplication
 
-root = Path(__file__).parent
+root = Path(__file__).parent.joinpath("__ui__")
 
 Form, Window = uic.loadUiType(root.joinpath("not_implemented.ui"))
 app = QApplication([])
