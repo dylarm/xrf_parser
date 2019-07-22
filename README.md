@@ -8,6 +8,7 @@ Take in the files produced by the Bruger Tracer 5i handheld XRF and produce tabl
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 [![Maintainability](https://api.codeclimate.com/v1/badges/b5b69702443c7e0986eb/maintainability)](https://codeclimate.com/github/dylarm/xrf_parser/maintainability)
 [![codebeat badge](https://codebeat.co/badges/5d6ddbc6-93c4-497b-9624-1a50b17994ec)](https://codebeat.co/projects/github-com-dylarm-xrf_parser-master)
+[![Build Status](https://travis-ci.com/dylarm/xrf_parser.svg?branch=master)](https://travis-ci.com/dylarm/xrf_parser)
 
 ## Description
 __Unknown__: Material sample  
