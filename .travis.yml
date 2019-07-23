@@ -6,6 +6,7 @@ install:
 cache: pip
 git:
   depth: false
+  submodules: false
 script:
   - $TEST_CMD
 before_install:
