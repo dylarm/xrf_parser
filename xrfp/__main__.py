@@ -67,6 +67,7 @@ class About(QDialog):
 
 def main() -> None:
     app = QApplication(sys.argv)
+    app.setStyle("Fusion")
     form = Xrfp()
     form.show()
     sys.exit(app.exec_())
