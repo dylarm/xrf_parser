@@ -31,6 +31,7 @@ class Xrfp(QMainWindow):
 
     def __buttons(self):
         self.actionAbout.triggered.connect(self.executeAbout)
+        self.btnHome.clicked.connect(self.goHomePath)
 
     def __directories(self):
         self.model = QFileSystemModel()
@@ -57,6 +58,13 @@ class Xrfp(QMainWindow):
     def updateList(self, index):
         dir_path = self.model.fileInfo(index).absoluteFilePath()
         self.listFiles.setRootIndex(self.file_model.setRootPath(dir_path))
+
+    def goHomePath(self):
+        home = QDir.homePath()
+        index = self.model.index(home)
+        self.treeInputDir.scrollTo(self.model.setRootPath(home))
+        self.treeInputDir.setCurrentIndex(index)
+        self.updateList(index)
 
 
 class About(QDialog):
