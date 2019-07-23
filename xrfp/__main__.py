@@ -30,6 +30,7 @@ class Xrfp(QMainWindow):
     def __init__(self, parent=None):
         super(Xrfp, self).__init__(parent)
         loadUi(MAIN_UI, self)
+        self.tabWidget.setCurrentIndex(0)
         self.__buttons()
         self.__directories()
 
