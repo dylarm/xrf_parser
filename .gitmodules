@@ -1,0 +1,3 @@
+[submodule "xrfp\\__ui__\\images\\tango"]
+	path = xrfp\\__ui__\\images\\tango
+	url = https://github.com/ppinard/qtango.git
