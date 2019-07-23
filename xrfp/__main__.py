@@ -12,12 +12,18 @@ from PyQt5.QtWidgets import (  # type: ignore
 )
 from PyQt5.uic import loadUi  # type: ignore
 
+from xrfp import (
+    __author__,
+    __email__,
+    __credits__,
+    __copyright__,
+    __license__,
+    __version__,
+)
+
 ROOT = Path(__file__).parent.joinpath("__ui__")
 MAIN_UI = ROOT.joinpath("main.ui")
 ABOUT_UI = ROOT.joinpath("about.ui")
-
-
-# TODO: Fill about About Dialog, programmatically ideally
 
 
 class Xrfp(QMainWindow):
@@ -69,6 +75,15 @@ class About(QDialog):
     def __init__(self):
         super(About, self).__init__()
         loadUi(ABOUT_UI, self)
+        self.lblVersion.setText(__version__)
+        nl = "\n"
+        msg = f"""Created by {__author__} <{__email__}>
+{__copyright__}
+Licensed under {__license__}.
+Credits:
+{nl.join(x for x in __credits__)}
+"""
+        self.txtAbout.setText(msg)
 
 
 def main() -> None:

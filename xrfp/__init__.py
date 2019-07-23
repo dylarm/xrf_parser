@@ -9,10 +9,14 @@ This project aims to provide a simple usage: read the PDZ files produced from a
 given handheld XRF device, and produce certain statistics and information.
 """
 
+from subprocess import check_output
+
 __author__ = "Dylan Armitage"
-__credits__ = ["Dylan Armitage", "Nathan Simpson"]
+__credits__ = ["Dylan Armitage (author)", "Nathan Simpson (inspiration)"]
 __license__ = "Apache-2.0"
+__copyright__ = "Copyright © 2019 Dylan Armitage"
 __maintainer__ = "Dylan Armitage"
 __email__ = "dylanjarmitage@gmail.com"
+__version__ = check_output(["git", "describe", "--all", "--long"]).decode("utf-8")
 
 __all__ = ["input"]
