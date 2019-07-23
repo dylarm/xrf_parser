@@ -3,13 +3,8 @@
 import sys
 from pathlib import Path
 
-from PyQt5.QtCore import QDir, Qt  # type: ignore
-from PyQt5.QtWidgets import (  # type: ignore
-    QApplication,
-    QMainWindow,
-    QDialog,
-    QFileSystemModel,
-)
+from PyQt5.QtCore import QDir, Qt
+from PyQt5.QtWidgets import QApplication, QMainWindow, QDialog, QFileSystemModel
 from PyQt5.uic import loadUi  # type: ignore
 
 from xrfp import (
@@ -89,7 +84,7 @@ Credits:
 
 def main() -> None:
     app = QApplication(sys.argv)
-    app.setStyle("Fusion")
+    app.setStyle("Fusion")  # type: ignore
     form = Xrfp()
     form.show()
     sys.exit(app.exec_())
