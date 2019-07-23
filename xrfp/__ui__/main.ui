@@ -37,6 +37,10 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>images/tango/icons/tango/32x32/apps/utilities-system-monitor.png</normaloff>images/tango/icons/tango/32x32/apps/utilities-system-monitor.png</iconset>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QTabWidget" name="tabWidget">
     <property name="geometry">
@@ -48,7 +52,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="tabInput">
      <attribute name="title">
@@ -237,6 +241,17 @@
      <attribute name="title">
       <string>Statistics</string>
      </attribute>
+     <widget class="QWidget" name="formLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>9</y>
+        <width>581</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout"/>
+     </widget>
     </widget>
    </widget>
   </widget>

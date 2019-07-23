@@ -17,9 +17,7 @@ MAIN_UI = ROOT.joinpath("main.ui")
 ABOUT_UI = ROOT.joinpath("about.ui")
 
 
-# TODO: Refresh and home buttons for directory/file listings
 # TODO: Fill about About Dialog, programmatically ideally
-# TODO: Fix path to UI files when using `python -m xrfp`
 
 
 class Xrfp(QMainWindow):
