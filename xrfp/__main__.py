@@ -3,8 +3,13 @@
 import sys
 from pathlib import Path
 
-from PyQt5.QtCore import QDir
-from PyQt5.QtWidgets import QApplication, QMainWindow, QDialog, QFileSystemModel
+from PyQt5.QtCore import QDir, Qt  # type: ignore
+from PyQt5.QtWidgets import (  # type: ignore
+    QApplication,
+    QMainWindow,
+    QDialog,
+    QFileSystemModel,
+)
 from PyQt5.uic import loadUi  # type: ignore
 
 ROOT = Path(__file__).parent.joinpath("__ui__")
@@ -12,8 +17,6 @@ MAIN_UI = ROOT.joinpath("main.ui")
 ABOUT_UI = ROOT.joinpath("about.ui")
 
 
-# TODO: Get selected directory
-# TODO: Show files in directory
 # TODO: Refresh and home buttons for directory/file listings
 # TODO: Fill about About Dialog, programmatically ideally
 # TODO: Fix path to UI files when using `python -m xrfp`
@@ -30,18 +33,30 @@ class Xrfp(QMainWindow):
         self.actionAbout.triggered.connect(self.executeAbout)
 
     def __directories(self):
-        model = QFileSystemModel()
-        model.setRootPath(QDir.currentPath())
-        model.setFilter(QDir.AllDirs | QDir.NoDotAndDotDot)
-        self.treeInputDir.setModel(model)
+        self.model = QFileSystemModel()
+        self.model.setRootPath(QDir.rootPath())
+        self.model.setFilter(QDir.AllDirs | QDir.NoDotAndDotDot)
+        self.model.sort(0, Qt.AscendingOrder)
+        self.treeInputDir.setModel(self.model)
+        # Update the list of files if directory is selected
+        self.treeInputDir.clicked.connect(self.updateList)
         # Hide all except the Name column
-        cols = model.columnCount()
+        cols = self.model.columnCount()
         for col in range(cols - 1):
             self.treeInputDir.hideColumn(col + 1)
+        # Files only model
+        self.file_model = QFileSystemModel()
+        self.file_model.setFilter(QDir.NoDotAndDotDot | QDir.Files)
+        # self.file_model.setRootPath(QDir.currentPath())
+        self.listFiles.setModel(self.file_model)
 
     def executeAbout(self):
         about = About()
         about.exec_()
+
+    def updateList(self, index):
+        dir_path = self.model.fileInfo(index).absoluteFilePath()
+        self.listFiles.setRootIndex(self.file_model.setRootPath(dir_path))
 
 
 class About(QDialog):

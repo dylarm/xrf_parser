@@ -88,31 +88,24 @@
        </rect>
       </property>
       <layout class="QGridLayout" name="gridLayout">
-       <item row="0" column="0">
-        <widget class="QLabel" name="lblInputDir">
-         <property name="text">
-          <string>Input Directory</string>
-         </property>
-         <property name="buddy">
-          <cstring>treeInputDir</cstring>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="1">
-        <widget class="QComboBox" name="comboBox_2"/>
-       </item>
        <item row="3" column="1">
         <widget class="QLabel" name="lblMethod">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
          <property name="text">
           <string>Method</string>
          </property>
          <property name="buddy">
-          <cstring>comboBox_2</cstring>
+          <cstring>selectMethod</cstring>
          </property>
         </widget>
        </item>
        <item row="2" column="1">
-        <widget class="QComboBox" name="comboBox">
+        <widget class="QComboBox" name="selectApplication">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
          <property name="sizePolicy">
           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
            <horstretch>0</horstretch>
@@ -136,13 +129,50 @@
          </item>
         </widget>
        </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="lblInputDir">
+         <property name="text">
+          <string>Input Directory</string>
+         </property>
+         <property name="buddy">
+          <cstring>treeInputDir</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QComboBox" name="selectMethod">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLabel" name="lblFiles">
+         <property name="text">
+          <string>Input Files</string>
+         </property>
+        </widget>
+       </item>
        <item row="0" column="1">
         <widget class="QLabel" name="lblApplication">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
          <property name="text">
           <string>Application</string>
          </property>
          <property name="buddy">
-          <cstring>comboBox</cstring>
+          <cstring>selectApplication</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="QListView" name="listFiles">
+         <property name="editTriggers">
+          <set>QAbstractItemView::CurrentChanged</set>
+         </property>
+         <property name="selectionMode">
+          <enum>QAbstractItemView::MultiSelection</enum>
          </property>
         </widget>
        </item>
@@ -159,8 +189,39 @@
          </property>
         </spacer>
        </item>
-       <item row="2" column="0" rowspan="4">
-        <widget class="QTreeView" name="treeInputDir"/>
+       <item row="2" column="0" rowspan="10">
+        <widget class="QTreeView" name="treeInputDir">
+         <property name="editTriggers">
+          <set>QAbstractItemView::DoubleClicked|QAbstractItemView::SelectedClicked</set>
+         </property>
+         <property name="sortingEnabled">
+          <bool>false</bool>
+         </property>
+         <property name="animated">
+          <bool>true</bool>
+         </property>
+         <property name="headerHidden">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="1">
+        <layout class="QGridLayout" name="gridFiles">
+         <item row="1" column="1">
+          <widget class="QPushButton" name="btnAll">
+           <property name="text">
+            <string>Select All</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QPushButton" name="btnNone">
+           <property name="text">
+            <string>Select None</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
        </item>
       </layout>
      </widget>
@@ -199,9 +260,58 @@
  <tabstops>
   <tabstop>tabWidget</tabstop>
   <tabstop>treeInputDir</tabstop>
-  <tabstop>comboBox</tabstop>
-  <tabstop>comboBox_2</tabstop>
+  <tabstop>selectApplication</tabstop>
+  <tabstop>selectMethod</tabstop>
  </tabstops>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>btnAll</sender>
+   <signal>clicked()</signal>
+   <receiver>listFiles</receiver>
+   <slot>selectAll()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>678</x>
+     <y>295</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>582</x>
+     <y>413</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnNone</sender>
+   <signal>clicked()</signal>
+   <receiver>listFiles</receiver>
+   <slot>clearSelection()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>487</x>
+     <y>295</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>582</x>
+     <y>413</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>treeInputDir</sender>
+   <signal>clicked(QModelIndex)</signal>
+   <receiver>listFiles</receiver>
+   <slot>setRootIndex(QModelIndex)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>189</x>
+     <y>177</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>449</x>
+     <y>392</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
